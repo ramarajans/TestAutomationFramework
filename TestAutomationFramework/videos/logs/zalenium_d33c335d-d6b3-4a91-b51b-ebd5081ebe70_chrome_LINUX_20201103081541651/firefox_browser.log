@@ -1,0 +1,2 @@
+webdriver.log.file has been discontinued.
+Please send us a PR if you know how to set the path for the Firefox browser logs.

@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-zalenium.yaml up >output.txt

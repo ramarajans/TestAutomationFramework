@@ -1,0 +1,8 @@
+[INFO ] 2020-11-01 11:44:10.591 [main] Test_Log4JDemo - Logger Info message
+[ERROR] 2020-11-01 11:44:10.600 [main] Test_Log4JDemo - Logger Fail message
+[WARN ] 2020-11-01 11:44:10.601 [main] Test_Log4JDemo - Logger Warn message
+[FATAL] 2020-11-01 11:44:10.601 [main] Test_Log4JDemo - Logger Fatal message
+[INFO ] 2020-11-01 11:47:39.524 [main] Test_Log4JDemo - Logger Info message
+[ERROR] 2020-11-01 11:47:39.536 [main] Test_Log4JDemo - Logger Fail message
+[WARN ] 2020-11-01 11:47:39.537 [main] Test_Log4JDemo - Logger Warn message
+[FATAL] 2020-11-01 11:47:39.537 [main] Test_Log4JDemo - Logger Fatal message

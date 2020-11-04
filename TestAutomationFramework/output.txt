@@ -1,0 +1,68 @@
+Attaching to zalenium2
+[36mzalenium2   |[0m Docker version 17.09.1-ce, build 19e2cf6
+[36mzalenium2   |[0m -- LOG 10:01:49:039289200 Ensuring docker works...
+[36mzalenium2   |[0m -- LOG 10:01:49:144824100 Ensuring no stale Zalenium related containers are still around...
+[36mzalenium2   |[0m -- LOG 10:01:49:171215700 Ensuring docker-selenium is available...
+[36mzalenium2   |[0m -- LOG 10:01:49:210635100 Running additional checks...
+[36mzalenium2   |[0m Copying files for Dashboard...
+[36mzalenium2   |[0m Starting Nginx reverse proxy...
+[36mzalenium2   |[0m Starting Selenium Hub...
+[36mzalenium2   |[0m ....10:01:50.296 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 10:01:50.300 INFO - Launching Selenium Grid hub on port 4445
+[36mzalenium2   |[0m ...10:01:51.100 INFO - binding de.zalando.ep.zalenium.servlet.LivePreviewServlet to /grid/admin/LivePreviewServlet/*
+[36mzalenium2   |[0m 10:01:51.105 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumConsoleServlet to /grid/admin/ZaleniumConsoleServlet/*
+[36mzalenium2   |[0m 10:01:51.108 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumResourceServlet to /grid/admin/ZaleniumResourceServlet/*
+[36mzalenium2   |[0m 10:01:51.111 INFO - binding de.zalando.ep.zalenium.dashboard.DashboardCleanupServlet to /grid/admin/DashboardCleanupServlet/*
+[36mzalenium2   |[0m 10:01:51.115 INFO - binding de.zalando.ep.zalenium.servlet.VncAuthenticationServlet to /grid/admin/VncAuthenticationServlet/*
+[36mzalenium2   |[0m ...2020-11-04 10:01:51 INFO  log:192 - Logging initialized @2228ms to org.seleniumhq.jetty9.util.log.Slf4jLog
+[36mzalenium2   |[0m .2020-11-04 10:01:51 INFO  Server:373 - jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m .2020-11-04 10:01:52 INFO  session:364 - DefaultSessionIdManager workerName=node0
+[36mzalenium2   |[0m 2020-11-04 10:01:52 INFO  session:369 - No SessionScavenger set, using defaults
+[36mzalenium2   |[0m 2020-11-04 10:01:52 INFO  session:149 - Scavenging every 660000ms
+[36mzalenium2   |[0m 2020-11-04 10:01:52 INFO  ContextHandler:788 - Started o.s.j.s.ServletContextHandler@2b6856dd{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2020-11-04 10:01:52 INFO  AbstractConnector:288 - Started ServerConnector@22635ba0{HTTP/1.1,[http/1.1]}{0.0.0.0:4445}
+[36mzalenium2   |[0m 2020-11-04 10:01:52 INFO  Server:410 - Started @2621ms
+[36mzalenium2   |[0m 10:01:52.141 INFO - Selenium Grid hub is up and running
+[36mzalenium2   |[0m 10:01:52.154 INFO - Nodes should register to http://192.168.80.2:4445/grid/register/
+[36mzalenium2   |[0m 10:01:52.155 INFO - Clients should connect to http://192.168.80.2:4445/wd/hub
+[36mzalenium2   |[0m Selenium Hub started!
+[36mzalenium2   |[0m Starting DockerSeleniumStarter node...
+[36mzalenium2   |[0m ....10:01:53.388 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 10:01:53.391 INFO - Launching a Selenium Grid node on port 30000
+[36mzalenium2   |[0m ..2020-11-04 10:01:54.058:INFO::main: Logging initialized @1437ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mzalenium2   |[0m ..2020-11-04 10:01:54.452:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m 2020-11-04 10:01:54.510:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1dde4cb2{/,null,STARTING} has uncovered http methods for path: /
+[36mzalenium2   |[0m 2020-11-04 10:01:54.539:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1dde4cb2{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2020-11-04 10:01:54.665:INFO:osjs.AbstractConnector:main: Started ServerConnector@505a41b8{HTTP/1.1,[http/1.1]}{0.0.0.0:30000}
+[36mzalenium2   |[0m 2020-11-04 10:01:54.672:INFO:osjs.Server:main: Started @2050ms
+[36mzalenium2   |[0m 10:01:54.673 INFO - Selenium Server is up and running on port 30000
+[36mzalenium2   |[0m 10:01:54.686 INFO - Selenium Grid node is up and ready to register to the hub
+[36mzalenium2   |[0m 10:01:54.749 INFO - Registering the node to the hub: http://localhost:4444/grid/register
+[36mzalenium2   |[0m ..10:01:55.653 INFO - Registered a node http://192.168.80.2:30000
+[36mzalenium2   |[0m 10:01:55.656 INFO - [DS]  Setting up 0 nodes...
+[36mzalenium2   |[0m 10:01:55.657 INFO - 0 containers were created, it will take a bit more until all get registered.
+[36mzalenium2   |[0m 10:01:55.664 INFO - Updating the node configuration from the hub
+[36mzalenium2   |[0m 10:01:55.688 INFO - The node is registered to the hub and ready to use
+[36mzalenium2   |[0m DockerSeleniumStarter node started!
+[36mzalenium2   |[0m Sauce Labs not enabled...
+[36mzalenium2   |[0m Browser Stack not enabled...
+[36mzalenium2   |[0m TestingBot not enabled...
+[36mzalenium2   |[0m Zalenium is now ready!
+[36mzalenium2   |[0m 10:02:07.330 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 10:02:07.336 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2020-11-04 10:02:08 INFO  DefaultDockerClient:678 - Starting container with Id: 6edfe06c6b678aaa900a6169070c7b58147d015326917ccba41f27d632a19024
+[36mzalenium2   |[0m 10:02:13.980 INFO - [DS] Container zalenium2_40000 is up after ~5 seconds...
+[36mzalenium2   |[0m 10:02:23.888 INFO - Registered a node http://192.168.80.3:40000
+[36mzalenium2   |[0m 10:02:23.892 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=67a9caac-dca7-4801-865b-2ab3b565a30d, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 10:02:25.058 INFO - http://192.168.80.3:40000 [bash, -c, start-video]
+[36mzalenium2   |[0m 10:03:14.336 INFO - http://192.168.80.3:40000 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 10:03:14.392 INFO - http://192.168.80.3:40000 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 10:03:16.703 INFO - http://192.168.80.3:40000 [bash, -c, stop-video]
+[36mzalenium2   |[0m Trapped SIGTERM/SIGINT so shutting down Zalenium gracefully...
+[36mzalenium2   |[0m -- LOG 10:03:17:656486200 WaitForVideosTransferred succeeded for a total of 19
+[36mzalenium2   |[0m Stopping Hub...
+[36mzalenium2   |[0m Stopping DockerSeleniumStarter node...
+[36mzalenium2   |[0m -- LOG 10:03:17:733088800 Ensuring no stale Zalenium related containers are still around...
+[36mzalenium2   |[0m Removing exited docker-selenium containers...
+[36mzalenium2 exited with code 137
+[0m

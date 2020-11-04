@@ -1,0 +1,20 @@
+09:14:47.698 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: 82b03c358b
+09:14:48.042 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 40000
+2020-11-03 09:14:48.374:INFO::main: Logging initialized @1417ms to org.seleniumhq.jetty9.util.log.StdErrLog
+09:14:49.156 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+09:14:59.357 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 40000
+09:14:59.357 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+09:14:59.454 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 20000 ms.
+09:15:00.824 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://172.18.0.2:4445/grid/register
+09:15:01.144 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+09:15:01.345 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "version": ""
+}
+09:15:01.348 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 14802
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+09:15:03.778 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+09:15:03.840 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8488fcab81fcb5a37d7f4eb88f310270 (org.openqa.selenium.chrome.ChromeDriverService)

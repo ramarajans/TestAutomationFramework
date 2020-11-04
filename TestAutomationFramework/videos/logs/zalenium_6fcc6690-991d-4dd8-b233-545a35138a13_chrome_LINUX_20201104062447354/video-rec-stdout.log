@@ -1,0 +1,140 @@
+--40002LOG 06:23:53:920857300 Waiting for file /home/seluser/videos/vid_chrome_or_firefox_40002* to be created...
+Won't start video recording due to VIDEO env var false
+ffmpeg version 2.8.17-0ubuntu0.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 20160609
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, x11grab, from ':13.0':
+  Duration: N/A, start: 1604463834.058452, bitrate: N/A
+    Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1366x768, 10 fps, 10 tbr, 1000k tbn, 10 tbc
+[libx264 @ 0x937320] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[libx264 @ 0x937320] profile Constrained Baseline, level 3.2
+[libx264 @ 0x937320] 264 - core 148 r2643 5c65704 - H.264/MPEG-4 AVC codec - Copyleft 2003-2015 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=10 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, matroska, to '/home/seluser/videos/vid_chrome_or_firefox_40002.mkv':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) (H264 / 0x34363248), yuv420p, 1366x768, q=-1--1, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[swscaler @ 0x942ca0] Warning: data is not aligned! This can lead to a speedloss
+frame=    8 fps=0.0 q=10.0 size=      25kB time=00:00:00.40 bitrate= 516.9kbits/s    
+frame=   14 fps= 12 q=9.0 size=      28kB time=00:00:01.00 bitrate= 230.7kbits/s    
+frame=   20 fps= 11 q=9.0 size=      29kB time=00:00:01.60 bitrate= 147.9kbits/s    
+frame=   25 fps= 11 q=9.0 size=      30kB time=00:00:02.10 bitrate= 115.1kbits/s    
+frame=   31 fps= 11 q=10.0 size=      52kB time=00:00:02.70 bitrate= 158.5kbits/s    
+frame=   37 fps= 11 q=9.0 size=      56kB time=00:00:03.30 bitrate= 138.4kbits/s    
+frame=   42 fps= 10 q=9.0 size=      57kB time=00:00:03.80 bitrate= 122.0kbits/s    
+frame=   48 fps= 10 q=11.0 size=      83kB time=00:00:04.40 bitrate= 155.1kbits/s    
+frame=   54 fps= 10 q=10.0 size=      97kB time=00:00:05.00 bitrate= 158.2kbits/s    
+frame=   60 fps= 10 q=9.0 size=     100kB time=00:00:05.60 bitrate= 145.8kbits/s    
+frame=   66 fps= 10 q=13.0 size=     101kB time=00:00:06.20 bitrate= 133.1kbits/s    
+frame=   71 fps= 10 q=9.0 size=     122kB time=00:00:06.70 bitrate= 149.2kbits/s    
+frame=   77 fps= 10 q=9.0 size=     125kB time=00:00:07.30 bitrate= 140.3kbits/s    
+frame=   82 fps= 10 q=9.0 size=     126kB time=00:00:07.80 bitrate= 132.2kbits/s    
+frame=   87 fps= 10 q=9.0 size=     127kB time=00:00:08.30 bitrate= 125.6kbits/s    
+frame=   93 fps= 10 q=9.0 size=     128kB time=00:00:08.90 bitrate= 118.1kbits/s    
+frame=   98 fps= 10 q=18.0 size=     165kB time=00:00:09.40 bitrate= 144.2kbits/s    
+frame=  103 fps= 10 q=11.0 size=     229kB time=00:00:09.90 bitrate= 189.4kbits/s    
+frame=  108 fps= 10 q=9.0 size=     245kB time=00:00:10.40 bitrate= 192.8kbits/s    
+frame=  114 fps= 10 q=15.0 size=     250kB time=00:00:11.00 bitrate= 186.3kbits/s    
+frame=  120 fps= 10 q=10.0 size=     288kB time=00:00:11.60 bitrate= 203.5kbits/s    
+frame=  126 fps= 10 q=17.0 size=     316kB time=00:00:12.20 bitrate= 212.0kbits/s    
+frame=  131 fps= 10 q=10.0 size=     349kB time=00:00:12.70 bitrate= 225.0kbits/s    
+frame=  136 fps= 10 q=9.0 size=     367kB time=00:00:13.20 bitrate= 227.5kbits/s    
+frame=  142 fps= 10 q=9.0 size=     369kB time=00:00:13.80 bitrate= 218.9kbits/s    
+frame=  148 fps= 10 q=16.0 size=     388kB time=00:00:14.40 bitrate= 220.7kbits/s    
+frame=  154 fps= 10 q=10.0 size=     455kB time=00:00:15.00 bitrate= 248.6kbits/s    
+frame=  160 fps= 10 q=9.0 size=     466kB time=00:00:15.60 bitrate= 244.5kbits/s    
+frame=  166 fps= 10 q=10.0 size=     466kB time=00:00:16.20 bitrate= 235.8kbits/s    
+frame=  171 fps= 10 q=14.0 size=     564kB time=00:00:16.70 bitrate= 276.8kbits/s    
+frame=  177 fps= 10 q=9.0 size=     662kB time=00:00:17.30 bitrate= 313.6kbits/s    
+frame=  182 fps= 10 q=9.0 size=     674kB time=00:00:17.80 bitrate= 310.0kbits/s    
+frame=  188 fps= 10 q=9.0 size=     674kB time=00:00:18.40 bitrate= 300.2kbits/s    
+frame=  193 fps= 10 q=9.0 size=     675kB time=00:00:18.90 bitrate= 292.5kbits/s    
+frame=  199 fps= 10 q=11.0 size=     676kB time=00:00:19.50 bitrate= 283.8kbits/s    
+frame=  204 fps= 10 q=11.0 size=     717kB time=00:00:20.00 bitrate= 293.9kbits/s    
+frame=  209 fps= 10 q=9.0 size=     729kB time=00:00:20.50 bitrate= 291.4kbits/s    
+frame=  215 fps= 10 q=9.0 size=     731kB time=00:00:21.10 bitrate= 284.0kbits/s    
+frame=  220 fps= 10 q=9.0 size=     732kB time=00:00:21.60 bitrate= 277.5kbits/s    
+frame=  226 fps= 10 q=9.0 size=     732kB time=00:00:22.20 bitrate= 270.1kbits/s    
+frame=  232 fps= 10 q=9.0 size=     732kB time=00:00:22.80 bitrate= 263.1kbits/s    
+frame=  237 fps= 10 q=9.0 size=     733kB time=00:00:23.30 bitrate= 257.6kbits/s    
+frame=  243 fps= 10 q=9.0 size=     733kB time=00:00:23.90 bitrate= 251.2kbits/s    
+frame=  248 fps= 10 q=9.0 size=     733kB time=00:00:24.40 bitrate= 246.2kbits/s    
+frame=  254 fps= 10 q=18.0 size=     733kB time=00:00:25.00 bitrate= 240.4kbits/s    
+frame=  259 fps= 10 q=10.0 size=     855kB time=00:00:25.50 bitrate= 274.7kbits/s    
+frame=  264 fps= 10 q=9.0 size=     855kB time=00:00:26.00 bitrate= 269.4kbits/s    
+frame=  269 fps= 10 q=9.0 size=     856kB time=00:00:26.50 bitrate= 264.5kbits/s    
+frame=  275 fps= 10 q=9.0 size=     856kB time=00:00:27.10 bitrate= 258.7kbits/s    
+frame=  281 fps= 10 q=9.0 size=     856kB time=00:00:27.70 bitrate= 253.2kbits/s    
+frame=  287 fps= 10 q=9.0 size=     856kB time=00:00:28.30 bitrate= 247.9kbits/s    
+frame=  292 fps= 10 q=9.0 size=     857kB time=00:00:28.80 bitrate= 243.7kbits/s    
+frame=  298 fps= 10 q=9.0 size=     857kB time=00:00:29.40 bitrate= 238.7kbits/s    
+frame=  304 fps= 10 q=9.0 size=     857kB time=00:00:30.00 bitrate= 234.0kbits/s    
+frame=  309 fps= 10 q=9.0 size=     857kB time=00:00:30.50 bitrate= 230.3kbits/s    
+frame=  315 fps= 10 q=9.0 size=     858kB time=00:00:31.10 bitrate= 226.0kbits/s    
+frame=  321 fps= 10 q=9.0 size=     858kB time=00:00:31.70 bitrate= 221.7kbits/s    
+frame=  326 fps= 10 q=9.0 size=     858kB time=00:00:32.20 bitrate= 218.4kbits/s    
+frame=  332 fps= 10 q=9.0 size=     859kB time=00:00:32.80 bitrate= 214.4kbits/s    
+frame=  338 fps= 10 q=9.0 size=     859kB time=00:00:33.40 bitrate= 210.7kbits/s    
+frame=  343 fps= 10 q=9.0 size=     859kB time=00:00:33.90 bitrate= 207.6kbits/s    
+frame=  349 fps= 10 q=9.0 size=     859kB time=00:00:34.50 bitrate= 204.1kbits/s    
+frame=  354 fps= 10 q=9.0 size=     860kB time=00:00:35.00 bitrate= 201.2kbits/s    
+frame=  360 fps= 10 q=10.0 size=     860kB time=00:00:35.60 bitrate= 198.0kbits/s    
+frame=  365 fps= 10 q=13.0 size=     866kB time=00:00:36.10 bitrate= 196.6kbits/s    
+frame=  371 fps= 10 q=10.0 size=     893kB time=00:00:36.70 bitrate= 199.2kbits/s    
+frame=  377 fps= 10 q=9.0 size=     896kB time=00:00:37.30 bitrate= 196.7kbits/s    
+frame=  383 fps= 10 q=11.0 size=     928kB time=00:00:37.90 bitrate= 200.7kbits/s    
+frame=  388 fps= 10 q=9.0 size=     937kB time=00:00:38.40 bitrate= 199.9kbits/s    
+frame=  393 fps= 10 q=9.0 size=     937kB time=00:00:38.90 bitrate= 197.4kbits/s    
+frame=  399 fps= 10 q=9.0 size=     938kB time=00:00:39.50 bitrate= 194.6kbits/s    
+frame=  405 fps= 10 q=18.0 size=    1024kB time=00:00:40.10 bitrate= 209.2kbits/s    
+frame=  411 fps= 10 q=10.0 size=    1121kB time=00:00:40.70 bitrate= 225.6kbits/s    
+frame=  417 fps= 10 q=9.0 size=    1134kB time=00:00:41.30 bitrate= 224.9kbits/s    
+frame=  423 fps= 10 q=9.0 size=    1134kB time=00:00:41.90 bitrate= 221.8kbits/s    
+frame=  428 fps= 10 q=9.0 size=    1135kB time=00:00:42.40 bitrate= 219.3kbits/s    
+frame=  433 fps= 10 q=9.0 size=    1135kB time=00:00:42.90 bitrate= 216.8kbits/s    
+frame=  438 fps= 10 q=9.0 size=    1136kB time=00:00:43.40 bitrate= 214.4kbits/s    
+frame=  444 fps= 10 q=9.0 size=    1137kB time=00:00:44.00 bitrate= 211.6kbits/s    
+frame=  449 fps= 10 q=9.0 size=    1137kB time=00:00:44.50 bitrate= 209.3kbits/s    
+frame=  455 fps= 10 q=9.0 size=    1138kB time=00:00:45.10 bitrate= 206.7kbits/s    
+frame=  460 fps= 10 q=9.0 size=    1138kB time=00:00:45.60 bitrate= 204.5kbits/s    
+frame=  465 fps= 10 q=9.0 size=    1139kB time=00:00:46.10 bitrate= 202.4kbits/s    
+frame=  471 fps= 10 q=9.0 size=    1139kB time=00:00:46.70 bitrate= 199.9kbits/s    
+frame=  477 fps= 10 q=9.0 size=    1140kB time=00:00:47.30 bitrate= 197.4kbits/s    
+frame=  483 fps= 10 q=14.0 size=    1162kB time=00:00:47.90 bitrate= 198.7kbits/s    
+--40002LOG 06:24:42:606678900 Trapped SIGTERM or SIGINT so shutting down ffmpeg gracefully...
+--40002LOG 06:24:42:611479500 Will kill VID_TOOL_PID=753 ...
+frame=  487 fps= 10 q=-1.0 Lsize=    1176kB time=00:00:48.70 bitrate= 197.8kbits/s    
+video:1172kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.339609%
+[libx264 @ 0x937320] frame I:2     Avg QP:13.00  size: 69510
+[libx264 @ 0x937320] frame P:485   Avg QP:10.07  size:  2187
+[libx264 @ 0x937320] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0x937320] mb P  I16..4:  1.8%  0.0%  0.0%  P16..4:  2.0%  0.0%  0.0%  0.0%  0.0%    skip:96.2%
+[libx264 @ 0x937320] coded y,uvDC,uvAC intra: 14.7% 9.3% 8.4% inter: 0.8% 0.9% 0.6%
+[libx264 @ 0x937320] i16 v,h,dc,p: 74% 24%  1%  1%
+[libx264 @ 0x937320] i8c dc,h,v,p: 83% 14%  3%  1%
+[libx264 @ 0x937320] kb/s:197.06
+Exiting normally, received signal 2.
+--40002LOG 06:24:43:631509000 Tried to kill -SIGTERM VID_TOOL_PID=753
+--40002LOG 06:24:43:635882400 Waiting up to 6s for VID_TOOL_PID=753 to end with SIGTERM...
+--40002LOG 06:24:43:648648600 wait_pid successfully managed to SIGTERM:VID_TOOL_PID=753 within less than 6s
+--40002LOG 06:24:43:653342400 Will try to fix the videos...
+--40002LOG 06:24:44:178321600 Fixing perms for /home/seluser/videos/vid_chrome_or_firefox_40002.mkv*
+--40002LOG 06:24:44:194288000 Changing video encoding from mkv to mp4...
+--40002LOG 06:24:46:966190600 Conversion from mkv to mp4 succeeded!
+--40002LOG 06:24:46:969699000 Cleaning up /home/seluser/videos/vid_chrome_or_firefox_40002.mkv ...
+--40002LOG 06:24:46:974389600 Optimizing /home/seluser/videos/vid_chrome_or_firefox_40002.mp4 for HTTP streaming...
+--40002LOG 06:24:47:005767200 Succeeded to mp4box_retry.sh within 8s
+--40002LOG 06:24:47:009224000 ffmpeg shutdown complete.

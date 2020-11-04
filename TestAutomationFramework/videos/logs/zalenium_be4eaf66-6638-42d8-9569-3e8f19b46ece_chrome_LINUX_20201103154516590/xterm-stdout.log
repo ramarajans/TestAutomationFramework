@@ -1,0 +1,17 @@
+Won't start selenium node chrome due to CHROME env var false
+Won't start selenium node firefox due to FIREFOX env var false
+Waiting for Selenium multi-node (Chrome & Firefox) to be ready...
+........................................true
+Done wait-selenium-multinode.sh
+Waiting for X Manager 'fluxbox' to be ready...
+Done wait-xmanager.sh
+Checking process-states through supervisorctl status
+novnc                            RUNNING   pid 147, uptime 0:00:13
+selenium-multinode               RUNNING   pid 148, uptime 0:00:13
+vnc                              RUNNING   pid 146, uptime 0:00:13
+xmanager                         RUNNING   pid 145, uptime 0:00:13
+xterm                            RUNNING   pid 149, uptime 0:00:13
+--40002LOG 15:42:50:029900400 Processes reported by supervisorctl status looking good.
+
+Container docker internal IP: 172.18.0.3
+

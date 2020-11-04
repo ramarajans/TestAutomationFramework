@@ -1,0 +1,161 @@
+03/11/2020 15:42:36 passing arg to libvncserver: -rfbport
+03/11/2020 15:42:36 passing arg to libvncserver: 60002
+03/11/2020 15:42:36 passing arg to libvncserver: -rfbportv6
+03/11/2020 15:42:36 passing arg to libvncserver: 60002
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+03/11/2020 15:42:37 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 168
+03/11/2020 15:42:43 Using X display :6
+03/11/2020 15:42:43 rootwin: 0x25c reswin: 0x400001 dpy: 0x27260f0
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 ------------------ USEFUL INFORMATION ------------------
+03/11/2020 15:42:43 X DAMAGE available on display, using it for polling hints.
+03/11/2020 15:42:43   To disable this behavior use: '-noxdamage'
+03/11/2020 15:42:43 
+03/11/2020 15:42:43   Most compositing window managers like 'compiz' or 'beryl'
+03/11/2020 15:42:43   cause X DAMAGE to fail, and so you may not see any screen
+03/11/2020 15:42:43   updates via VNC.  Either disable 'compiz' (recommended) or
+03/11/2020 15:42:43   supply the x11vnc '-noxdamage' command line option.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 Wireframing: -wireframe mode is in effect for window moves.
+03/11/2020 15:42:43   If this yields undesired behavior (poor response, painting
+03/11/2020 15:42:43   errors, etc) it may be disabled:
+03/11/2020 15:42:43    - use '-nowf' to disable wireframing completely.
+03/11/2020 15:42:43    - use '-nowcr' to disable the Copy Rectangle after the
+03/11/2020 15:42:43      moved window is released in the new position.
+03/11/2020 15:42:43   Also see the -help entry for tuning parameters.
+03/11/2020 15:42:43   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+03/11/2020 15:42:43   repaint the screen, also see the -fixscreen option for
+03/11/2020 15:42:43   periodic repaints.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 XFIXES available on display, resetting cursor mode
+03/11/2020 15:42:43   to: '-cursor most'.
+03/11/2020 15:42:43   to disable this behavior use: '-cursor arrow'
+03/11/2020 15:42:43   or '-noxfixes'.
+03/11/2020 15:42:43 using XFIXES for cursor drawing.
+03/11/2020 15:42:43 GrabServer control via XTEST.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 Scroll Detection: -scrollcopyrect mode is in effect to
+03/11/2020 15:42:43   use RECORD extension to try to detect scrolling windows
+03/11/2020 15:42:43   (induced by either user keystroke or mouse input).
+03/11/2020 15:42:43   If this yields undesired behavior (poor response, painting
+03/11/2020 15:42:43   errors, etc) it may be disabled via: '-noscr'
+03/11/2020 15:42:43   Also see the -help entry for tuning parameters.
+03/11/2020 15:42:43   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+03/11/2020 15:42:43   repaint the screen, also see the -fixscreen option for
+03/11/2020 15:42:43   periodic repaints.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 XKEYBOARD: number of keysyms per keycode 7 is greater
+03/11/2020 15:42:43   than 4 and 51 keysyms are mapped above 4.
+03/11/2020 15:42:43   Automatically switching to -xkb mode.
+03/11/2020 15:42:43   If this makes the key mapping worse you can
+03/11/2020 15:42:43   disable it with the "-noxkb" option.
+03/11/2020 15:42:43   Also, remember "-remap DEAD" for accenting characters.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 X FBPM extension not supported.
+03/11/2020 15:42:43 X display is not capable of DPMS.
+03/11/2020 15:42:43 --------------------------------------------------------
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 Default visual ID: 0x21
+03/11/2020 15:42:43 Read initial data from X display into framebuffer.
+03/11/2020 15:42:43 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/5464
+03/11/2020 15:42:43 WARNING: Width (1366) is not a multiple of 4. VncViewer has problems with that.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 X display :6 is 32bpp depth=24 true color
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 Listening for VNC connections on TCP port 60002
+03/11/2020 15:42:43 Listening for VNC connections on TCP6 port 60002
+03/11/2020 15:42:43 listen6: bind: Address already in use
+03/11/2020 15:42:43 Not listening on IPv6 interface.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 Xinerama is present and active (e.g. multi-head).
+03/11/2020 15:42:43 Xinerama: number of sub-screens: 1
+03/11/2020 15:42:43 Xinerama: no blackouts needed (only one sub-screen)
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 fb read rate: 63 MB/sec
+03/11/2020 15:42:43 The X server says there are 10 mouse buttons.
+03/11/2020 15:42:43 screen setup finished.
+03/11/2020 15:42:43 
+03/11/2020 15:42:43 WARNING: You are running x11vnc WITHOUT a password.  See
+03/11/2020 15:42:43 WARNING: the warning message printed above for more info.
+03/11/2020 15:42:43 
+
+The VNC desktop is:      27231d885cb1:54102
+03/11/2020 15:42:43 possible aliases:  27231d885cb1:60002, 27231d885cb1::60002
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+03/11/2020 15:42:43 Got connection from client 127.0.0.1
+03/11/2020 15:42:43   other clients:
+03/11/2020 15:42:43 webSocketsHandshake: unknown connection error
+03/11/2020 15:42:43 Client 127.0.0.1 gone
+03/11/2020 15:42:43 Statistics             events    Transmit/ RawEquiv ( saved)
+03/11/2020 15:42:43  TOTALS              :      0 |         0/        0 (  0.0%)
+03/11/2020 15:42:43 Statistics             events    Received/ RawEquiv ( saved)
+03/11/2020 15:42:43  TOTALS              :      0 |         0/        0 (  0.0%)
