@@ -36,7 +36,6 @@ public class GenericUtils {
 	public String driverPath = null;
 
 	public Map<String,String> configMap = new HashMap<String,String>();
-
 	public static String projectPath = System.getProperty("user.dir");
 
 	/***
