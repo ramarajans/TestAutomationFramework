@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Platform_Suite" class="navigator-link ">
-                    <span>C:\Users\I341067\OneDrive - SAP SE\Documents\EclipseWorkspace\TestAutomationFramework\testng.xml</span>
+                    <span>C:\Users\I341067\git\TestAutomationFramework\TestAutomationFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Platform_Suite" title="com.test.testcases.PlatformSignUpTest" class="method navigator-link" hash-for-method="signUpConversationalAI(Ramarajan, Sampath, test@sap.com, Test$123)">signUpConversationalAI(Ramarajan, Sampath, test@sap.com, Test$123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Platform_Suite" title="com.test.testcases.PlatformSignUpTest" class="method navigator-link" hash-for-method="signUpConversationalAI(Jan, Gilg, test3@sap.com, Test$123)">signUpConversationalAI(Jan, Gilg, test3@sap.com, Test$123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Platform_Suite" title="com.test.testcases.PlatformSignUpTest" class="method navigator-link" hash-for-method="signUpConversationalAI(Sachin, Tendulkar, test1@sap.com, Test$123)">signUpConversationalAI(Sachin, Tendulkar, test1@sap.com, Test$123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Platform_Suite -->
@@ -132,7 +142,37 @@
                   <span class="method-name">signUpConversationalAI</span>
                   <span class="parameters">(Ramarajan, Sampath, test@sap.com, Test$123)</span>
                   <div class="stack-trace">java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:193)
+	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
+	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpConversationalAI(Jan, Gilg, test3@sap.com, Test$123)">
+                  </a> <!-- signUpConversationalAI(Jan, Gilg, test3@sap.com, Test$123) -->
+                  <span class="method-name">signUpConversationalAI</span>
+                  <span class="parameters">(Jan, Gilg, test3@sap.com, Test$123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Success Message does not exist
+	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
+	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpConversationalAI(Sachin, Tendulkar, test1@sap.com, Test$123)">
+                  </a> <!-- signUpConversationalAI(Sachin, Tendulkar, test1@sap.com, Test$123) -->
+                  <span class="method-name">signUpConversationalAI</span>
+                  <span class="parameters">(Sachin, Tendulkar, test1@sap.com, Test$123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Success Message does not exist
+	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
 	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:58)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
@@ -145,7 +185,7 @@
         </div> <!-- panel Platform_Suite -->
         <div panel-name="test-xml-Platform_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\I341067\OneDrive - SAP SE\Documents\EclipseWorkspace\TestAutomationFramework\testng.xml</span>
+            <span class="header-content">C:\Users\I341067\git\TestAutomationFramework\TestAutomationFramework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,16 +237,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'signUpConversationalAI')
 data.setCell(0, 2, 'com.test.testcases.PlatformSignUpTest')
-data.setCell(0, 3, 67821);
+data.setCell(0, 3, 47355);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpConversationalAI')
+data.setCell(1, 2, 'com.test.testcases.PlatformSignUpTest')
+data.setCell(1, 3, 45950);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signUpConversationalAI')
+data.setCell(2, 2, 'com.test.testcases.PlatformSignUpTest')
+data.setCell(2, 3, 45212);
 window.suiteTableData['Platform_Suite']= { tableData: data, tableDiv: 'times-div-Platform_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Platform_Suite">
               </div> <!-- times-div-Platform_Suite -->
             </div> <!-- times-div -->
@@ -239,21 +287,49 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">21987 ms</span>
+                <span class="method-start">872 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signUpConversationalAI(Ramarajan, Sampath, test@sap.com, Test$123)</span>
-                <span class="method-start">21997 ms</span>
+                <span class="method-start">879 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">89828 ms</span>
+                <span class="method-start">46837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">48582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpConversationalAI(Sachin, Tendulkar, test1@sap.com, Test$123)</span>
+                <span class="method-start">48582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">93799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">94871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpConversationalAI(Jan, Gilg, test3@sap.com, Test$123)</span>
+                <span class="method-start">94871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">142228 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">90445 ms</span>
+                <span class="method-start">143558 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

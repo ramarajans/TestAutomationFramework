@@ -12,7 +12,7 @@
           <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
-          <include name="signUpConversationalAI" invocation-numbers="0"/>
+          <include name="signUpConversationalAI" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.test.testcases.PlatformSignUpTest -->
     </classes>
