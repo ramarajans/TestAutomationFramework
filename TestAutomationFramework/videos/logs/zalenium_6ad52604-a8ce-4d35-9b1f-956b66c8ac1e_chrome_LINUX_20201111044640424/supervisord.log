@@ -1,0 +1,32 @@
+2020-11-11 04:45:19,858 INFO Included extra file "/etc/supervisor/conf.d/browsermobproxy.conf" during parsing
+2020-11-11 04:45:19,858 INFO Included extra file "/etc/supervisor/conf.d/novnc.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/selenium-multinode.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/selenium-node-chrome.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/selenium-node-firefox.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/video-rec.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/vnc.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/xmanager.conf" during parsing
+2020-11-11 04:45:19,859 INFO Included extra file "/etc/supervisor/conf.d/xterm.conf" during parsing
+2020-11-11 04:45:19,878 INFO RPC interface 'supervisor' initialized
+2020-11-11 04:45:19,879 INFO RPC interface 'supervisor' initialized
+2020-11-11 04:45:19,879 INFO supervisord started with pid 141
+2020-11-11 04:45:20,882 INFO spawned: 'xmanager' with pid 144
+2020-11-11 04:45:20,885 INFO spawned: 'vnc' with pid 145
+2020-11-11 04:45:20,889 INFO spawned: 'novnc' with pid 146
+2020-11-11 04:45:20,903 INFO spawned: 'selenium-multinode' with pid 153
+2020-11-11 04:45:20,921 INFO spawned: 'xterm' with pid 159
+2020-11-11 04:45:20,923 INFO success: xterm entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-11-11 04:45:22,898 INFO success: xmanager entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2020-11-11 04:45:22,899 INFO success: vnc entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2020-11-11 04:45:22,899 INFO success: novnc entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2020-11-11 04:45:23,904 INFO success: selenium-multinode entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2020-11-11 04:45:37,814 INFO spawned: 'video-rec' with pid 675
+2020-11-11 04:45:37,815 INFO success: video-rec entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-11-11 04:46:28,556 INFO waiting for video-rec to stop
+2020-11-11 04:46:30,556 INFO waiting for video-rec to stop
+2020-11-11 04:46:32,556 INFO waiting for video-rec to stop
+2020-11-11 04:46:34,557 INFO waiting for video-rec to stop
+2020-11-11 04:46:36,558 INFO waiting for video-rec to stop
+2020-11-11 04:46:38,561 INFO waiting for video-rec to stop
+2020-11-11 04:46:39,207 INFO stopped: video-rec (exit status 0)

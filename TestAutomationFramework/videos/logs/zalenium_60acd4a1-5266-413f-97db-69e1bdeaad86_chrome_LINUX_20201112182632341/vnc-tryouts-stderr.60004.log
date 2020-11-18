@@ -1,0 +1,207 @@
+12/11/2020 18:25:23 passing arg to libvncserver: -rfbport
+12/11/2020 18:25:23 passing arg to libvncserver: 60004
+12/11/2020 18:25:23 passing arg to libvncserver: -rfbportv6
+12/11/2020 18:25:23 passing arg to libvncserver: 60004
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+12/11/2020 18:25:24 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 188
+12/11/2020 18:25:25 Using X display :10
+12/11/2020 18:25:25 rootwin: 0x25c reswin: 0x400001 dpy: 0x26470f0
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 ------------------ USEFUL INFORMATION ------------------
+12/11/2020 18:25:25 X DAMAGE available on display, using it for polling hints.
+12/11/2020 18:25:25   To disable this behavior use: '-noxdamage'
+12/11/2020 18:25:25 
+12/11/2020 18:25:25   Most compositing window managers like 'compiz' or 'beryl'
+12/11/2020 18:25:25   cause X DAMAGE to fail, and so you may not see any screen
+12/11/2020 18:25:25   updates via VNC.  Either disable 'compiz' (recommended) or
+12/11/2020 18:25:25   supply the x11vnc '-noxdamage' command line option.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 Wireframing: -wireframe mode is in effect for window moves.
+12/11/2020 18:25:25   If this yields undesired behavior (poor response, painting
+12/11/2020 18:25:25   errors, etc) it may be disabled:
+12/11/2020 18:25:25    - use '-nowf' to disable wireframing completely.
+12/11/2020 18:25:25    - use '-nowcr' to disable the Copy Rectangle after the
+12/11/2020 18:25:25      moved window is released in the new position.
+12/11/2020 18:25:25   Also see the -help entry for tuning parameters.
+12/11/2020 18:25:25   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+12/11/2020 18:25:25   repaint the screen, also see the -fixscreen option for
+12/11/2020 18:25:25   periodic repaints.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 XFIXES available on display, resetting cursor mode
+12/11/2020 18:25:25   to: '-cursor most'.
+12/11/2020 18:25:25   to disable this behavior use: '-cursor arrow'
+12/11/2020 18:25:25   or '-noxfixes'.
+12/11/2020 18:25:25 using XFIXES for cursor drawing.
+12/11/2020 18:25:25 GrabServer control via XTEST.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 Scroll Detection: -scrollcopyrect mode is in effect to
+12/11/2020 18:25:25   use RECORD extension to try to detect scrolling windows
+12/11/2020 18:25:25   (induced by either user keystroke or mouse input).
+12/11/2020 18:25:25   If this yields undesired behavior (poor response, painting
+12/11/2020 18:25:25   errors, etc) it may be disabled via: '-noscr'
+12/11/2020 18:25:25   Also see the -help entry for tuning parameters.
+12/11/2020 18:25:25   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+12/11/2020 18:25:25   repaint the screen, also see the -fixscreen option for
+12/11/2020 18:25:25   periodic repaints.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 XKEYBOARD: number of keysyms per keycode 7 is greater
+12/11/2020 18:25:25   than 4 and 51 keysyms are mapped above 4.
+12/11/2020 18:25:25   Automatically switching to -xkb mode.
+12/11/2020 18:25:25   If this makes the key mapping worse you can
+12/11/2020 18:25:25   disable it with the "-noxkb" option.
+12/11/2020 18:25:25   Also, remember "-remap DEAD" for accenting characters.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 X FBPM extension not supported.
+12/11/2020 18:25:25 X display is not capable of DPMS.
+12/11/2020 18:25:25 --------------------------------------------------------
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 Default visual ID: 0x21
+12/11/2020 18:25:25 Read initial data from X display into framebuffer.
+12/11/2020 18:25:25 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/5464
+12/11/2020 18:25:25 WARNING: Width (1366) is not a multiple of 4. VncViewer has problems with that.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 X display :10 is 32bpp depth=24 true color
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 Listening for VNC connections on TCP port 60004
+12/11/2020 18:25:25 Listening for VNC connections on TCP6 port 60004
+12/11/2020 18:25:25 listen6: bind: Address already in use
+12/11/2020 18:25:25 Not listening on IPv6 interface.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 Xinerama is present and active (e.g. multi-head).
+12/11/2020 18:25:25 Xinerama: number of sub-screens: 1
+12/11/2020 18:25:25 Xinerama: no blackouts needed (only one sub-screen)
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 fb read rate: 921 MB/sec
+12/11/2020 18:25:25 fast read: reset -wait  ms to: 10
+12/11/2020 18:25:25 fast read: reset -defer ms to: 10
+12/11/2020 18:25:25 The X server says there are 10 mouse buttons.
+12/11/2020 18:25:25 screen setup finished.
+12/11/2020 18:25:25 
+12/11/2020 18:25:25 WARNING: You are running x11vnc WITHOUT a password.  See
+12/11/2020 18:25:25 WARNING: the warning message printed above for more info.
+12/11/2020 18:25:25 
+
+The VNC desktop is:      8fb6b421c923:54104
+12/11/2020 18:25:25 possible aliases:  8fb6b421c923:60004, 8fb6b421c923::60004
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+12/11/2020 18:25:26 Got connection from client 127.0.0.1
+12/11/2020 18:25:26   other clients:
+12/11/2020 18:25:26 webSocketsHandshake: unknown connection error
+12/11/2020 18:25:26 Client 127.0.0.1 gone
+12/11/2020 18:25:26 Statistics             events    Transmit/ RawEquiv ( saved)
+12/11/2020 18:25:26  TOTALS              :      0 |         0/        0 (  0.0%)
+12/11/2020 18:25:26 Statistics             events    Received/ RawEquiv ( saved)
+12/11/2020 18:25:26  TOTALS              :      0 |         0/        0 (  0.0%)
+12/11/2020 18:25:26 Got connection from client 127.0.0.1
+12/11/2020 18:25:26   other clients:
+12/11/2020 18:25:26 webSocketsHandshake: unknown connection error
+12/11/2020 18:25:26 Client 127.0.0.1 gone
+12/11/2020 18:25:26 Statistics             events    Transmit/ RawEquiv ( saved)
+12/11/2020 18:25:26  TOTALS              :      0 |         0/        0 (  0.0%)
+12/11/2020 18:25:26 Statistics             events    Received/ RawEquiv ( saved)
+12/11/2020 18:25:26  TOTALS              :      0 |         0/        0 (  0.0%)
+12/11/2020 18:26:22 Got connection from client 127.0.0.1
+12/11/2020 18:26:22   other clients:
+12/11/2020 18:26:22 Normal socket connection
+12/11/2020 18:26:22 Disabled X server key autorepeat.
+12/11/2020 18:26:22   to force back on run: 'xset r on' (3 times)
+12/11/2020 18:26:22 incr accepted_client=1 for 127.0.0.1:46784  sock=12
+12/11/2020 18:26:22 Client Protocol Version 3.8
+12/11/2020 18:26:22 Protocol version sent 3.8, using 3.8
+12/11/2020 18:26:22 rfbProcessClientSecurityType: executing handler for type 1
+12/11/2020 18:26:22 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+12/11/2020 18:26:22 Pixel format for client 127.0.0.1:
+12/11/2020 18:26:22   32 bpp, depth 24, little endian
+12/11/2020 18:26:22   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+12/11/2020 18:26:22 no translation needed
+12/11/2020 18:26:22 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+12/11/2020 18:26:22 Using image quality level 6 for client 127.0.0.1
+12/11/2020 18:26:22 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+12/11/2020 18:26:22 Using compression level 9 for client 127.0.0.1
+12/11/2020 18:26:22 Enabling NewFBSize protocol extension for client 127.0.0.1
+12/11/2020 18:26:22 Enabling LastRect protocol extension for client 127.0.0.1
+12/11/2020 18:26:22 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+12/11/2020 18:26:22 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+12/11/2020 18:26:22 Enabling Xvp protocol extension for client 127.0.0.1
+12/11/2020 18:26:22 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+12/11/2020 18:26:22 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+12/11/2020 18:26:22 Using tight encoding for client 127.0.0.1
+12/11/2020 18:26:23 client 1 network rate 891.7 KB/sec (44550.0 eff KB/sec)
+12/11/2020 18:26:23 client 1 latency:  2.5 ms
+12/11/2020 18:26:23 dt1: 0.0277, dt2: 0.0678 dt3: 0.0025 bytes: 84022
+12/11/2020 18:26:23 link_rate: LR_LAN - 2 ms, 891 KB/s
+12/11/2020 18:26:23 client useCopyRect: 127.0.0.1 -1
+12/11/2020 18:26:23 client_set_net: 127.0.0.1  0.0003
+12/11/2020 18:26:23 created   xdamage object: 0x40002f
+12/11/2020 18:26:23 copy_tiles: allocating first_line at size 44
+12/11/2020 18:26:31 created selwin: 0x400030
+12/11/2020 18:26:31 called initialize_xfixes()

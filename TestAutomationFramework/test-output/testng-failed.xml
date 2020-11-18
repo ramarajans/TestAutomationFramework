@@ -3,6 +3,7 @@
 <suite name="Failed suite [Platform Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.listener.TestNGListener"/>
+    <listener class-name="com.listener.AnnotationTransformer"/>
   </listeners>
   <test thread-count="5" name="Platform Sign Up(failed)">
     <classes>
@@ -12,7 +13,7 @@
           <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
-          <include name="signUpConversationalAI" invocation-numbers="0 1 2"/>
+          <include name="signUpConversationalAI" invocation-numbers="0 0 1 1 2 2"/>
         </methods>
       </class> <!-- com.test.testcases.PlatformSignUpTest -->
     </classes>

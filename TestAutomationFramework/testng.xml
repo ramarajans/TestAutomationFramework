@@ -3,6 +3,7 @@
 <suite name="Platform Suite">
 	<listeners>
 		<listener class-name="com.listener.TestNGListener" />
+		<listener class-name="com.listener.AnnotationTransformer" />
 	</listeners>
 	<test name="Platform Sign Up">
 		<classes>

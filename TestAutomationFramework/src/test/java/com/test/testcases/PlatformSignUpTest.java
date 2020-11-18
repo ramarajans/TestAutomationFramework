@@ -16,12 +16,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.listener.RetryFailedTestCases;
 import com.main.DriverFactory;
 import com.main.DriverManager;
 import com.pages.SignUpCAIPage;
 import com.reports.ExtentFactory;
 import com.reports.LogStatus;
 import com.utils.Constants;
+import com.utils.Helper;
 
 
 public class PlatformSignUpTest extends BaseTest{
@@ -36,7 +38,7 @@ public class PlatformSignUpTest extends BaseTest{
 		
 	}
 
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data") //retryAnalyzer = RetryFailedTestCases.class
 	public void signUpConversationalAI(String firstName, String lastName, String email,String password) throws Exception {
 
 		openBrowser(DriverFactory.getBrowser());
@@ -46,7 +48,9 @@ public class PlatformSignUpTest extends BaseTest{
 		signupPage.clickSignUpBtn();
 		DriverManager.getDriver().manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		signupPage.switchToFrame();
+		firstName = firstName+"_"+Helper.currentTimeStamp();
 		signupPage.typeFirstName(firstName);
+		lastName = lastName+"_"+Helper.currentTimeStamp();
 		signupPage.typeLastName(lastName);
 		signupPage.typeEmail(email);
 		signupPage.typePassword(password);
