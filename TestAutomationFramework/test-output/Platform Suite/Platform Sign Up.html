@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/3/3</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 18 18:06:48 IST 2020</td>
+<td>Started on:</td><td>Mon Nov 30 18:25:18 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>291 seconds (291642 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5048 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,36 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Ramarajan, Sampath, testdqefewfewf@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1689272789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1689272789'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810404969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810404969'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,23 +122,40 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>41</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Sachin, Tendulkar, test1@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace236085607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace236085607'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586976540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace586976540'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,23 +172,40 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>41</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Jan, Gilg, test3@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1196308540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1196308540'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace954656388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace954656388'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,8 +222,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>54</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -183,19 +234,36 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Ramarajan, Sampath, testdqefewfewf@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709212632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1709212632'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace716282063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace716282063'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -212,23 +280,40 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>53</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Sachin, Tendulkar, test1@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace106751501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace106751501'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1772093180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1772093180'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -245,23 +330,40 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>40</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 <tr>
 <td title='com.test.testcases.PlatformSignUpTest.signUpConversationalAI()'><b>signUpConversationalAI</b><br>Test class: com.test.testcases.PlatformSignUpTest<br>Parameters: Jan, Gilg, test3@sap.com, Test$123</td>
-<td><div><pre>java.lang.AssertionError: Success Message does not exist
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1665354803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1665354803'><pre>java.lang.AssertionError: Success Message does not exist
-	at org.testng.Assert.fail(Assert.java:97)
-	at com.utils.GenericUtils.checkFieldExist(GenericUtils.java:192)
-	at com.pages.SignUpCAIPage.verifySuccessMessage(SignUpCAIPage.java:141)
-	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:62)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131774198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131774198'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
+	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
+	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
+	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -278,8 +380,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>56</td>
-<td>com.test.testcases.PlatformSignUpTest@a2431d0</td></tr>
+<td>0</td>
+<td>com.test.testcases.PlatformSignUpTest@5ace1ed4</td></tr>
 </table><p>
 </body>
 </html>

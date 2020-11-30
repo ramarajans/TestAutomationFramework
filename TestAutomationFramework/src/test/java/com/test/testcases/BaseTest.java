@@ -1,6 +1,7 @@
 package com.test.testcases;
 
 import java.io.BufferedReader;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -35,6 +36,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.main.DriverFactory;
 import com.main.DriverManager;
 import com.reports.ExtentManager;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class BaseTest {
@@ -208,7 +211,9 @@ public class BaseTest {
 
 			case "chrome":
 
-				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverExePath());
+				WebDriverManager.chromedriver().setup();
+				
+				//System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverExePath());
 				HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 				chromePrefs.put("profile.default_content_settings.popups", 0);
 				chromePrefs.put("download.prompt_for_download", "true");
@@ -226,7 +231,9 @@ public class BaseTest {
 
 			case "firefox":
 
-				System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverExePath());
+				WebDriverManager.firefoxdriver().setup();
+				
+				//System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverExePath());
 				FirefoxOptions FFoptions= new FirefoxOptions();
 				//FFoptions.addArguments("--incognito");
 				DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -235,8 +242,10 @@ public class BaseTest {
 				break;
 
 			default:
-
-				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverExePath());
+				
+				WebDriverManager.chromedriver().setup();
+				
+			//	System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverExePath());
 				options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 				options.setExperimentalOption("useAutomationExtension", false);
 				//options.addArguments("--incognito");
