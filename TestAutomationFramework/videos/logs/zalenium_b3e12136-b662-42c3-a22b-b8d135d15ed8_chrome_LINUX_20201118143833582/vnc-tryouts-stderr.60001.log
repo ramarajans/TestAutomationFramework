@@ -1,0 +1,443 @@
+18/11/2020 14:36:41 passing arg to libvncserver: -rfbport
+18/11/2020 14:36:41 passing arg to libvncserver: 60001
+18/11/2020 14:36:41 passing arg to libvncserver: -rfbportv6
+18/11/2020 14:36:41 passing arg to libvncserver: 60001
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+18/11/2020 14:36:42 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 169
+18/11/2020 14:36:44 Using X display :27
+18/11/2020 14:36:44 rootwin: 0x25c reswin: 0x400001 dpy: 0x15eb0f0
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 ------------------ USEFUL INFORMATION ------------------
+18/11/2020 14:36:44 X DAMAGE available on display, using it for polling hints.
+18/11/2020 14:36:44   To disable this behavior use: '-noxdamage'
+18/11/2020 14:36:44 
+18/11/2020 14:36:44   Most compositing window managers like 'compiz' or 'beryl'
+18/11/2020 14:36:44   cause X DAMAGE to fail, and so you may not see any screen
+18/11/2020 14:36:44   updates via VNC.  Either disable 'compiz' (recommended) or
+18/11/2020 14:36:44   supply the x11vnc '-noxdamage' command line option.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 Wireframing: -wireframe mode is in effect for window moves.
+18/11/2020 14:36:44   If this yields undesired behavior (poor response, painting
+18/11/2020 14:36:44   errors, etc) it may be disabled:
+18/11/2020 14:36:44    - use '-nowf' to disable wireframing completely.
+18/11/2020 14:36:44    - use '-nowcr' to disable the Copy Rectangle after the
+18/11/2020 14:36:44      moved window is released in the new position.
+18/11/2020 14:36:44   Also see the -help entry for tuning parameters.
+18/11/2020 14:36:44   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+18/11/2020 14:36:44   repaint the screen, also see the -fixscreen option for
+18/11/2020 14:36:44   periodic repaints.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 XFIXES available on display, resetting cursor mode
+18/11/2020 14:36:44   to: '-cursor most'.
+18/11/2020 14:36:44   to disable this behavior use: '-cursor arrow'
+18/11/2020 14:36:44   or '-noxfixes'.
+18/11/2020 14:36:44 using XFIXES for cursor drawing.
+18/11/2020 14:36:44 GrabServer control via XTEST.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 Scroll Detection: -scrollcopyrect mode is in effect to
+18/11/2020 14:36:44   use RECORD extension to try to detect scrolling windows
+18/11/2020 14:36:44   (induced by either user keystroke or mouse input).
+18/11/2020 14:36:44   If this yields undesired behavior (poor response, painting
+18/11/2020 14:36:44   errors, etc) it may be disabled via: '-noscr'
+18/11/2020 14:36:44   Also see the -help entry for tuning parameters.
+18/11/2020 14:36:44   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+18/11/2020 14:36:44   repaint the screen, also see the -fixscreen option for
+18/11/2020 14:36:44   periodic repaints.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 XKEYBOARD: number of keysyms per keycode 7 is greater
+18/11/2020 14:36:44   than 4 and 51 keysyms are mapped above 4.
+18/11/2020 14:36:44   Automatically switching to -xkb mode.
+18/11/2020 14:36:44   If this makes the key mapping worse you can
+18/11/2020 14:36:44   disable it with the "-noxkb" option.
+18/11/2020 14:36:44   Also, remember "-remap DEAD" for accenting characters.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 X FBPM extension not supported.
+18/11/2020 14:36:44 X display is not capable of DPMS.
+18/11/2020 14:36:44 --------------------------------------------------------
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 Default visual ID: 0x21
+18/11/2020 14:36:44 Read initial data from X display into framebuffer.
+18/11/2020 14:36:44 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/5464
+18/11/2020 14:36:44 WARNING: Width (1366) is not a multiple of 4. VncViewer has problems with that.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 X display :27 is 32bpp depth=24 true color
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 Listening for VNC connections on TCP port 60001
+18/11/2020 14:36:44 Listening for VNC connections on TCP6 port 60001
+18/11/2020 14:36:44 listen6: bind: Address already in use
+18/11/2020 14:36:44 Not listening on IPv6 interface.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 Xinerama is present and active (e.g. multi-head).
+18/11/2020 14:36:44 Xinerama: number of sub-screens: 1
+18/11/2020 14:36:44 Xinerama: no blackouts needed (only one sub-screen)
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 fb read rate: 93 MB/sec
+18/11/2020 14:36:44 fast read: reset -wait  ms to: 10
+18/11/2020 14:36:44 fast read: reset -defer ms to: 10
+18/11/2020 14:36:44 The X server says there are 10 mouse buttons.
+18/11/2020 14:36:44 screen setup finished.
+18/11/2020 14:36:44 
+18/11/2020 14:36:44 WARNING: You are running x11vnc WITHOUT a password.  See
+18/11/2020 14:36:44 WARNING: the warning message printed above for more info.
+18/11/2020 14:36:44 
+
+The VNC desktop is:      077f95b9dc9b:54101
+18/11/2020 14:36:44 possible aliases:  077f95b9dc9b:60001, 077f95b9dc9b::60001
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+18/11/2020 14:36:44 Got connection from client 127.0.0.1
+18/11/2020 14:36:44   other clients:
+18/11/2020 14:36:44 webSocketsHandshake: unknown connection error
+18/11/2020 14:36:44 Client 127.0.0.1 gone
+18/11/2020 14:36:44 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:36:44  TOTALS              :      0 |         0/        0 (  0.0%)
+18/11/2020 14:36:44 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:36:44  TOTALS              :      0 |         0/        0 (  0.0%)
+18/11/2020 14:36:45 Got connection from client 127.0.0.1
+18/11/2020 14:36:45   other clients:
+18/11/2020 14:36:45 webSocketsHandshake: unknown connection error
+18/11/2020 14:36:45 Client 127.0.0.1 gone
+18/11/2020 14:36:45 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:36:45  TOTALS              :      0 |         0/        0 (  0.0%)
+18/11/2020 14:36:45 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:36:45  TOTALS              :      0 |         0/        0 (  0.0%)
+18/11/2020 14:37:23 Got connection from client 127.0.0.1
+18/11/2020 14:37:23   other clients:
+18/11/2020 14:37:23 Normal socket connection
+18/11/2020 14:37:23 Disabled X server key autorepeat.
+18/11/2020 14:37:23   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:37:23 incr accepted_client=1 for 127.0.0.1:32930  sock=12
+18/11/2020 14:37:23 Client Protocol Version 3.8
+18/11/2020 14:37:23 Protocol version sent 3.8, using 3.8
+18/11/2020 14:37:23 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:37:23 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:37:23 copy_tiles: allocating first_line at size 44
+18/11/2020 14:37:24 Pixel format for client 127.0.0.1:
+18/11/2020 14:37:24   32 bpp, depth 24, little endian
+18/11/2020 14:37:24   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:37:24 no translation needed
+18/11/2020 14:37:24 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:37:24 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:37:24 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:37:24 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:37:24 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:37:24 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:37:24 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:37:24 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:37:24 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:37:24 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:37:24 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:37:24 Using tight encoding for client 127.0.0.1
+18/11/2020 14:37:24 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:37:24 client_set_net: 127.0.0.1  0.0027
+18/11/2020 14:37:24 created   xdamage object: 0x40002f
+18/11/2020 14:37:24 client 1 network rate 173.3 KB/sec (28923.8 eff KB/sec)
+18/11/2020 14:37:24 client 1 latency:  7.9 ms
+18/11/2020 14:37:24 dt1: 0.0655, dt2: 0.0835 dt3: 0.0079 bytes: 25145
+18/11/2020 14:37:24 link_rate: LR_UNKNOWN - 7 ms, 173 KB/s
+18/11/2020 14:37:29 client_count: 0
+18/11/2020 14:37:29 Client 127.0.0.1 gone
+18/11/2020 14:37:29 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:37:29  XvpServerMessage    :      1 |         4/        4 (  0.0%)
+18/11/2020 14:37:29  FramebufferUpdate   :     12 |         0/        0 (  0.0%)
+18/11/2020 14:37:29  LastRect            :      3 |        36/       36 (  0.0%)
+18/11/2020 14:37:29  tight               :     55 |     32967/  4355876 ( 99.2%)
+18/11/2020 14:37:29  TOTALS              :     71 |     33007/  4355916 ( 99.2%)
+18/11/2020 14:37:29 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:37:29  FramebufferUpdate   :     13 |       130/      130 (  0.0%)
+18/11/2020 14:37:29  SetEncodings        :      1 |        64/       64 (  0.0%)
+18/11/2020 14:37:29  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/11/2020 14:37:29  TOTALS              :     15 |       214/      214 (  0.0%)
+18/11/2020 14:37:29 destroyed xdamage object: 0x40002f
+18/11/2020 14:37:30 Got connection from client 127.0.0.1
+18/11/2020 14:37:30   other clients:
+18/11/2020 14:37:30 Normal socket connection
+18/11/2020 14:37:30 Disabled X server key autorepeat.
+18/11/2020 14:37:30   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:37:30 incr accepted_client=2 for 127.0.0.1:33428  sock=12
+18/11/2020 14:37:30 Client Protocol Version 3.8
+18/11/2020 14:37:30 Protocol version sent 3.8, using 3.8
+18/11/2020 14:37:30 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:37:30 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:37:30 Pixel format for client 127.0.0.1:
+18/11/2020 14:37:30   32 bpp, depth 24, little endian
+18/11/2020 14:37:30   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:37:30 no translation needed
+18/11/2020 14:37:30 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:37:30 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:37:30 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:37:30 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:37:30 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:37:30 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:37:30 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:37:30 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:37:30 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:37:30 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:37:30 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:37:30 Using tight encoding for client 127.0.0.1
+18/11/2020 14:37:30 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:37:30 client_set_net: 127.0.0.1  0.0000
+18/11/2020 14:37:30 created   xdamage object: 0x400030
+18/11/2020 14:37:33 client 2 network rate 58.0 KB/sec (8427.7 eff KB/sec)
+18/11/2020 14:37:33 client 2 latency:  2.0 ms
+18/11/2020 14:37:33 dt1: 0.4958, dt2: 0.0031 dt3: 0.0020 bytes: 28959
+18/11/2020 14:37:33 link_rate: LR_BROADBAND - 2 ms, 58 KB/s
+18/11/2020 14:37:37 client_count: 0
+18/11/2020 14:37:37 Client 127.0.0.1 gone
+18/11/2020 14:37:37 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:37:37  XvpServerMessage    :      1 |         4/        4 (  0.0%)
+18/11/2020 14:37:37  FramebufferUpdate   :     11 |         0/        0 (  0.0%)
+18/11/2020 14:37:37  LastRect            :      1 |        12/       12 (  0.0%)
+18/11/2020 14:37:37  tight               :     55 |     30442/  4216468 ( 99.3%)
+18/11/2020 14:37:37  TOTALS              :     68 |     30458/  4216484 ( 99.3%)
+18/11/2020 14:37:37 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:37:37  FramebufferUpdate   :     12 |       120/      120 (  0.0%)
+18/11/2020 14:37:37  SetEncodings        :      1 |        64/       64 (  0.0%)
+18/11/2020 14:37:37  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/11/2020 14:37:37  TOTALS              :     14 |       204/      204 (  0.0%)
+18/11/2020 14:37:37 destroyed xdamage object: 0x400030
+18/11/2020 14:37:37 Got connection from client 127.0.0.1
+18/11/2020 14:37:37   other clients:
+18/11/2020 14:37:38 Normal socket connection
+18/11/2020 14:37:38 Disabled X server key autorepeat.
+18/11/2020 14:37:38   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:37:38 incr accepted_client=3 for 127.0.0.1:33552  sock=12
+18/11/2020 14:37:38 Client Protocol Version 3.8
+18/11/2020 14:37:38 Protocol version sent 3.8, using 3.8
+18/11/2020 14:37:38 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:37:38 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:37:38 Pixel format for client 127.0.0.1:
+18/11/2020 14:37:38   32 bpp, depth 24, little endian
+18/11/2020 14:37:38   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:37:38 no translation needed
+18/11/2020 14:37:38 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:37:38 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:37:38 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:37:38 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:37:38 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:37:38 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:37:38 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:37:38 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:37:38 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:37:38 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:37:38 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:37:38 Using tight encoding for client 127.0.0.1
+18/11/2020 14:37:38 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:37:38 client_set_net: 127.0.0.1  0.0001
+18/11/2020 14:37:38 created   xdamage object: 0x400031
+18/11/2020 14:37:41 client 3 network rate 115.6 KB/sec (16664.7 eff KB/sec)
+18/11/2020 14:37:41 client 3 latency:  2.5 ms
+18/11/2020 14:37:41 dt1: 0.2487, dt2: 0.0036 dt3: 0.0025 bytes: 29174
+18/11/2020 14:37:41 link_rate: LR_BROADBAND - 2 ms, 115 KB/s
+18/11/2020 14:37:41 client_count: 0
+18/11/2020 14:37:41 Client 127.0.0.1 gone
+18/11/2020 14:37:41 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:37:41  XvpServerMessage    :      1 |         4/        4 (  0.0%)
+18/11/2020 14:37:41  FramebufferUpdate   :      8 |         0/        0 (  0.0%)
+18/11/2020 14:37:41  LastRect            :      1 |        12/       12 (  0.0%)
+18/11/2020 14:37:41  tight               :     52 |     29222/  4208752 ( 99.3%)
+18/11/2020 14:37:41  TOTALS              :     62 |     29238/  4208768 ( 99.3%)
+18/11/2020 14:37:41 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:37:41  FramebufferUpdate   :      9 |        90/       90 (  0.0%)
+18/11/2020 14:37:41  SetEncodings        :      1 |        64/       64 (  0.0%)
+18/11/2020 14:37:41  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/11/2020 14:37:41  TOTALS              :     11 |       174/      174 (  0.0%)
+18/11/2020 14:37:41 destroyed xdamage object: 0x400031
+18/11/2020 14:37:42 Got connection from client 127.0.0.1
+18/11/2020 14:37:42   other clients:
+18/11/2020 14:37:42 Normal socket connection
+18/11/2020 14:37:42 Disabled X server key autorepeat.
+18/11/2020 14:37:42   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:37:42 incr accepted_client=4 for 127.0.0.1:33648  sock=12
+18/11/2020 14:37:43 Client Protocol Version 3.8
+18/11/2020 14:37:43 Protocol version sent 3.8, using 3.8
+18/11/2020 14:37:43 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:37:43 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:37:43 Pixel format for client 127.0.0.1:
+18/11/2020 14:37:43   32 bpp, depth 24, little endian
+18/11/2020 14:37:43   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:37:43 no translation needed
+18/11/2020 14:37:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:37:43 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:37:43 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:37:43 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:37:43 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:37:43 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:37:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:37:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:37:43 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:37:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:37:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:37:43 Using tight encoding for client 127.0.0.1
+18/11/2020 14:37:43 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:37:43 client_set_net: 127.0.0.1  0.0001
+18/11/2020 14:37:43 created   xdamage object: 0x400032
+18/11/2020 14:37:46 client 4 network rate 31.4 KB/sec (4517.7 eff KB/sec)
+18/11/2020 14:37:46 client 4 latency:  4.0 ms
+18/11/2020 14:37:46 dt1: 0.9232, dt2: 0.0075 dt3: 0.0040 bytes: 29263
+18/11/2020 14:37:46 link_rate: LR_BROADBAND - 4 ms, 31 KB/s
+18/11/2020 14:37:47 client_count: 0
+18/11/2020 14:37:47 Client 127.0.0.1 gone
+18/11/2020 14:37:47 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:37:47  XvpServerMessage    :      1 |         4/        4 (  0.0%)
+18/11/2020 14:37:47  FramebufferUpdate   :     18 |         0/        0 (  0.0%)
+18/11/2020 14:37:47  LastRect            :      4 |        48/       48 (  0.0%)
+18/11/2020 14:37:47  tight               :    120 |     58671/ 12764800 ( 99.5%)
+18/11/2020 14:37:47  TOTALS              :    143 |     58723/ 12764852 ( 99.5%)
+18/11/2020 14:37:47 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:37:47  FramebufferUpdate   :     19 |       190/      190 (  0.0%)
+18/11/2020 14:37:47  SetEncodings        :      1 |        64/       64 (  0.0%)
+18/11/2020 14:37:47  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/11/2020 14:37:47  TOTALS              :     21 |       274/      274 (  0.0%)
+18/11/2020 14:37:47 destroyed xdamage object: 0x400032
+18/11/2020 14:37:48 Got connection from client 127.0.0.1
+18/11/2020 14:37:48   other clients:
+18/11/2020 14:37:48 Normal socket connection
+18/11/2020 14:37:48 Disabled X server key autorepeat.
+18/11/2020 14:37:48   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:37:48 incr accepted_client=5 for 127.0.0.1:33774  sock=12
+18/11/2020 14:37:48 Client Protocol Version 3.8
+18/11/2020 14:37:48 Protocol version sent 3.8, using 3.8
+18/11/2020 14:37:48 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:37:48 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:37:48 Pixel format for client 127.0.0.1:
+18/11/2020 14:37:48   32 bpp, depth 24, little endian
+18/11/2020 14:37:48   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:37:48 no translation needed
+18/11/2020 14:37:48 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:37:48 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:37:48 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:37:48 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:37:48 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:37:48 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:37:48 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:37:48 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:37:48 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:37:48 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:37:48 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:37:48 Using tight encoding for client 127.0.0.1
+18/11/2020 14:37:48 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:37:48 client_set_net: 127.0.0.1  0.0001
+18/11/2020 14:37:48 created   xdamage object: 0x400033
+18/11/2020 14:37:51 client 5 network rate 3798.7 KB/sec (1071523.1 eff KB/sec)
+18/11/2020 14:37:51 client 5 latency:  4.6 ms
+18/11/2020 14:37:51 dt1: 0.0461, dt2: 0.0156 dt3: 0.0046 bytes: 225539
+18/11/2020 14:37:51 link_rate: LR_LAN - 4 ms, 3798 KB/s
+18/11/2020 14:37:58 created selwin: 0x400034
+18/11/2020 14:37:58 called initialize_xfixes()
+18/11/2020 14:38:19 client_count: 0
+18/11/2020 14:38:19 Client 127.0.0.1 gone
+18/11/2020 14:38:19 Statistics             events    Transmit/ RawEquiv ( saved)
+18/11/2020 14:38:19  ServerCutText       :      1 |         8/        8 (  0.0%)
+18/11/2020 14:38:19  XvpServerMessage    :      1 |         4/        4 (  0.0%)
+18/11/2020 14:38:19  FramebufferUpdate   :    283 |         0/        0 (  0.0%)
+18/11/2020 14:38:19  LastRect            :     99 |      1188/     1188 (  0.0%)
+18/11/2020 14:38:19  tight               :   2211 |   1416387/122148036 ( 98.8%)
+18/11/2020 14:38:19  TOTALS              :   2595 |   1417587/122149236 ( 98.8%)
+18/11/2020 14:38:19 Statistics             events    Received/ RawEquiv ( saved)
+18/11/2020 14:38:19  FramebufferUpdate   :    283 |      2830/     2830 (  0.0%)
+18/11/2020 14:38:19  SetEncodings        :      1 |        64/       64 (  0.0%)
+18/11/2020 14:38:19  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/11/2020 14:38:19  TOTALS              :    285 |      2914/     2914 (  0.0%)
+18/11/2020 14:38:19 destroyed xdamage object: 0x400033
+18/11/2020 14:38:19 Got connection from client 127.0.0.1
+18/11/2020 14:38:19   other clients:
+18/11/2020 14:38:19 Normal socket connection
+18/11/2020 14:38:19 Disabled X server key autorepeat.
+18/11/2020 14:38:19   to force back on run: 'xset r on' (3 times)
+18/11/2020 14:38:19 incr accepted_client=6 for 127.0.0.1:34326  sock=12
+18/11/2020 14:38:19 Client Protocol Version 3.8
+18/11/2020 14:38:19 Protocol version sent 3.8, using 3.8
+18/11/2020 14:38:19 rfbProcessClientSecurityType: executing handler for type 1
+18/11/2020 14:38:19 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/11/2020 14:38:19 Pixel format for client 127.0.0.1:
+18/11/2020 14:38:19   32 bpp, depth 24, little endian
+18/11/2020 14:38:19   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+18/11/2020 14:38:19 no translation needed
+18/11/2020 14:38:19 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/11/2020 14:38:19 Using image quality level 6 for client 127.0.0.1
+18/11/2020 14:38:19 Using JPEG subsampling 0, Q79 for client 127.0.0.1
+18/11/2020 14:38:19 Using compression level 9 for client 127.0.0.1
+18/11/2020 14:38:19 Enabling NewFBSize protocol extension for client 127.0.0.1
+18/11/2020 14:38:19 Enabling LastRect protocol extension for client 127.0.0.1
+18/11/2020 14:38:19 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/11/2020 14:38:19 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+18/11/2020 14:38:19 Enabling Xvp protocol extension for client 127.0.0.1
+18/11/2020 14:38:19 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/11/2020 14:38:19 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/11/2020 14:38:19 Using tight encoding for client 127.0.0.1
+18/11/2020 14:38:20 client useCopyRect: 127.0.0.1 -1
+18/11/2020 14:38:20 client_set_net: 127.0.0.1  0.0000
+18/11/2020 14:38:20 created   xdamage object: 0x400035
+18/11/2020 14:38:23 client 6 network rate 1635.8 KB/sec (94363.3 eff KB/sec)
+18/11/2020 14:38:23 client 6 latency:  1.8 ms
+18/11/2020 14:38:23 dt1: 0.0054, dt2: 0.0083 dt3: 0.0018 bytes: 20858
+18/11/2020 14:38:23 link_rate: LR_LAN - 1 ms, 1635 KB/s

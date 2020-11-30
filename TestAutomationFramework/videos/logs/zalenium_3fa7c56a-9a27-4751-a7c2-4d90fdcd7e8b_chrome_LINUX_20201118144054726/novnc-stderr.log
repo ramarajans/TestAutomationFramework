@@ -1,0 +1,6 @@
+WebSocket server settings:
+  - Listen on :50004
+  - Flash security policy server
+  - Web server. Web root: /home/seluser/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :50004 to localhost:60004

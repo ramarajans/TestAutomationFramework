@@ -1,149 +1,146 @@
 Attaching to zalenium2
 [36mzalenium2   |[0m Docker version 17.09.1-ce, build 19e2cf6
-[36mzalenium2   |[0m -- LOG 18:20:29:190200200 Ensuring docker works...
-[36mzalenium2   |[0m -- LOG 18:20:29:346135000 Ensuring no stale Zalenium related containers are still around...
-[36mzalenium2   |[0m -- LOG 18:20:29:436336600 Ensuring docker-selenium is available...
-[36mzalenium2   |[0m -- LOG 18:20:29:550820500 Running additional checks...
+[36mzalenium2   |[0m -- LOG 14:36:31:713287100 Ensuring docker works...
+[36mzalenium2   |[0m -- LOG 14:36:31:756185200 Ensuring no stale Zalenium related containers are still around...
+[36mzalenium2   |[0m -- LOG 14:36:31:776089600 Ensuring docker-selenium is available...
+[36mzalenium2   |[0m -- LOG 14:36:31:799220600 Running additional checks...
 [36mzalenium2   |[0m Copying files for Dashboard...
 [36mzalenium2   |[0m Starting Nginx reverse proxy...
 [36mzalenium2   |[0m Starting Selenium Hub...
-[36mzalenium2   |[0m .....18:20:31.204 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
-[36mzalenium2   |[0m 18:20:31.210 INFO - Launching Selenium Grid hub on port 4445
-[36mzalenium2   |[0m ...18:20:32.125 INFO - binding de.zalando.ep.zalenium.servlet.LivePreviewServlet to /grid/admin/LivePreviewServlet/*
-[36mzalenium2   |[0m 18:20:32.131 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumConsoleServlet to /grid/admin/ZaleniumConsoleServlet/*
-[36mzalenium2   |[0m 18:20:32.135 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumResourceServlet to /grid/admin/ZaleniumResourceServlet/*
-[36mzalenium2   |[0m 18:20:32.141 INFO - binding de.zalando.ep.zalenium.dashboard.DashboardCleanupServlet to /grid/admin/DashboardCleanupServlet/*
-[36mzalenium2   |[0m .18:20:32.148 INFO - binding de.zalando.ep.zalenium.servlet.VncAuthenticationServlet to /grid/admin/VncAuthenticationServlet/*
-[36mzalenium2   |[0m ..2020-11-12 18:20:32 INFO  log:192 - Logging initialized @2479ms to org.seleniumhq.jetty9.util.log.Slf4jLog
-[36mzalenium2   |[0m .2020-11-12 18:20:32 INFO  Server:373 - jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
-[36mzalenium2   |[0m 2020-11-12 18:20:32 INFO  session:364 - DefaultSessionIdManager workerName=node0
-[36mzalenium2   |[0m 2020-11-12 18:20:32 INFO  session:369 - No SessionScavenger set, using defaults
-[36mzalenium2   |[0m 2020-11-12 18:20:32 INFO  session:149 - Scavenging every 600000ms
-[36mzalenium2   |[0m 2020-11-12 18:20:32 INFO  ContextHandler:788 - Started o.s.j.s.ServletContextHandler@2b6856dd{/,null,AVAILABLE}
-[36mzalenium2   |[0m 2020-11-12 18:20:33 INFO  AbstractConnector:288 - Started ServerConnector@36711d51{HTTP/1.1,[http/1.1]}{0.0.0.0:4445}
-[36mzalenium2   |[0m 2020-11-12 18:20:33 INFO  Server:410 - Started @2839ms
-[36mzalenium2   |[0m 18:20:33.045 INFO - Selenium Grid hub is up and running
-[36mzalenium2   |[0m 18:20:33.058 INFO - Nodes should register to http://172.21.0.2:4445/grid/register/
-[36mzalenium2   |[0m 18:20:33.059 INFO - Clients should connect to http://172.21.0.2:4445/wd/hub
+[36mzalenium2   |[0m ...14:36:32.441 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 14:36:32.459 INFO - Launching Selenium Grid hub on port 4445
+[36mzalenium2   |[0m ...14:36:33.320 INFO - binding de.zalando.ep.zalenium.servlet.LivePreviewServlet to /grid/admin/LivePreviewServlet/*
+[36mzalenium2   |[0m 14:36:33.325 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumConsoleServlet to /grid/admin/ZaleniumConsoleServlet/*
+[36mzalenium2   |[0m 14:36:33.327 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumResourceServlet to /grid/admin/ZaleniumResourceServlet/*
+[36mzalenium2   |[0m 14:36:33.331 INFO - binding de.zalando.ep.zalenium.dashboard.DashboardCleanupServlet to /grid/admin/DashboardCleanupServlet/*
+[36mzalenium2   |[0m 14:36:33.337 INFO - binding de.zalando.ep.zalenium.servlet.VncAuthenticationServlet to /grid/admin/VncAuthenticationServlet/*
+[36mzalenium2   |[0m ..2020-11-18 14:36:33 INFO  log:192 - Logging initialized @1778ms to org.seleniumhq.jetty9.util.log.Slf4jLog
+[36mzalenium2   |[0m .2020-11-18 14:36:33 INFO  Server:373 - jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:364 - DefaultSessionIdManager workerName=node0
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:369 - No SessionScavenger set, using defaults
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:149 - Scavenging every 660000ms
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  ContextHandler:788 - Started o.s.j.s.ServletContextHandler@2b6856dd{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  AbstractConnector:288 - Started ServerConnector@65b9be1e{HTTP/1.1,[http/1.1]}{0.0.0.0:4445}
+[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  Server:410 - Started @1958ms
+[36mzalenium2   |[0m 14:36:33.921 INFO - Selenium Grid hub is up and running
+[36mzalenium2   |[0m 14:36:33.922 INFO - Nodes should register to http://172.22.0.2:4445/grid/register/
+[36mzalenium2   |[0m 14:36:33.923 INFO - Clients should connect to http://172.22.0.2:4445/wd/hub
 [36mzalenium2   |[0m Selenium Hub started!
 [36mzalenium2   |[0m Starting DockerSeleniumStarter node...
-[36mzalenium2   |[0m ..18:20:33.874 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
-[36mzalenium2   |[0m 18:20:33.878 INFO - Launching a Selenium Grid node on port 30000
-[36mzalenium2   |[0m ...2020-11-12 18:20:34.375:INFO::main: Logging initialized @974ms to org.seleniumhq.jetty9.util.log.StdErrLog
-[36mzalenium2   |[0m 2020-11-12 18:20:34.547:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
-[36mzalenium2   |[0m 2020-11-12 18:20:34.579:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1dde4cb2{/,null,STARTING} has uncovered http methods for path: /
-[36mzalenium2   |[0m 2020-11-12 18:20:34.585:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1dde4cb2{/,null,AVAILABLE}
-[36mzalenium2   |[0m 2020-11-12 18:20:34.613:INFO:osjs.AbstractConnector:main: Started ServerConnector@58e0e7a2{HTTP/1.1,[http/1.1]}{0.0.0.0:30000}
-[36mzalenium2   |[0m 2020-11-12 18:20:34.613:INFO:osjs.Server:main: Started @1213ms
-[36mzalenium2   |[0m 18:20:34.614 INFO - Selenium Server is up and running on port 30000
-[36mzalenium2   |[0m 18:20:34.614 INFO - Selenium Grid node is up and ready to register to the hub
-[36mzalenium2   |[0m 18:20:34.667 INFO - Registering the node to the hub: http://localhost:4444/grid/register
-[36mzalenium2   |[0m ..18:20:35.186 INFO - Registered a node http://172.21.0.2:30000
-[36mzalenium2   |[0m 18:20:35.198 INFO - Updating the node configuration from the hub
-[36mzalenium2   |[0m 18:20:35.198 INFO - [DS]  Setting up 0 nodes...
-[36mzalenium2   |[0m 18:20:35.208 INFO - 0 containers were created, it will take a bit more until all get registered.
-[36mzalenium2   |[0m 18:20:35.229 INFO - The node is registered to the hub and ready to use
+[36mzalenium2   |[0m ..14:36:34.590 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 14:36:34.596 INFO - Launching a Selenium Grid node on port 30000
+[36mzalenium2   |[0m ..2020-11-18 14:36:34.981:INFO::main: Logging initialized @787ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mzalenium2   |[0m .2020-11-18 14:36:35.115:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m 2020-11-18 14:36:35.137:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1dde4cb2{/,null,STARTING} has uncovered http methods for path: /
+[36mzalenium2   |[0m 2020-11-18 14:36:35.142:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1dde4cb2{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2020-11-18 14:36:35.158:INFO:osjs.AbstractConnector:main: Started ServerConnector@2f54a188{HTTP/1.1,[http/1.1]}{0.0.0.0:30000}
+[36mzalenium2   |[0m 2020-11-18 14:36:35.159:INFO:osjs.Server:main: Started @966ms
+[36mzalenium2   |[0m 14:36:35.159 INFO - Selenium Server is up and running on port 30000
+[36mzalenium2   |[0m 14:36:35.160 INFO - Selenium Grid node is up and ready to register to the hub
+[36mzalenium2   |[0m 14:36:35.178 INFO - Registering the node to the hub: http://localhost:4444/grid/register
+[36mzalenium2   |[0m 14:36:35.468 INFO - Registered a node http://172.22.0.2:30000
+[36mzalenium2   |[0m 14:36:35.473 INFO - [DS]  Setting up 3 nodes...
+[36mzalenium2   |[0m 14:36:35.474 INFO - Updating the node configuration from the hub
+[36mzalenium2   |[0m 14:36:35.484 INFO - 3 containers were created, it will take a bit more until all get registered.
+[36mzalenium2   |[0m 14:36:35.499 INFO - The node is registered to the hub and ready to use
 [36mzalenium2   |[0m DockerSeleniumStarter node started!
 [36mzalenium2   |[0m Sauce Labs not enabled...
 [36mzalenium2   |[0m Browser Stack not enabled...
 [36mzalenium2   |[0m TestingBot not enabled...
 [36mzalenium2   |[0m Zalenium is now ready!
-[36mzalenium2   |[0m 18:20:45.911 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:20:45.925 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-12 18:20:49 INFO  DefaultDockerClient:678 - Starting container with Id: 0040567446e6167ccb75344d4f72e7d5bd0dcf2423aa9bf793fbe0619ad1351a
-[36mzalenium2   |[0m 18:20:55.856 INFO - [DS] Container zalenium2_40000 is up after ~6 seconds...
-[36mzalenium2   |[0m 18:21:06.352 INFO - Registered a node http://172.21.0.3:40000
-[36mzalenium2   |[0m 18:21:06.360 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=75781c78-1f7a-47e3-bad2-0bbfbfb7878f, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:21:07.414 INFO - http://172.21.0.3:40000 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:21:52.443 INFO - http://172.21.0.3:40000 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:21:52.567 INFO - http://172.21.0.3:40000 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 18:21:53.008 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:21:53.009 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-12 18:21:53 INFO  DefaultDockerClient:678 - Starting container with Id: d9bd99a28faebc52d42ea5ed7980f8908a14f3d7c52269368a010bb1edf7aaa4
-[36mzalenium2   |[0m 18:21:53.314 INFO - http://172.21.0.3:40000 [bash, -c, stop-video]
-[36mzalenium2   |[0m 18:22:03.906 INFO - [DS] Container zalenium2_40001 is up after ~10 seconds...
-[36mzalenium2   |[0m 18:22:04.619 INFO - http://172.21.0.3:40000 Video file copied to: /home/seluser/videos/zalenium_74031d17-540c-4a71-8658-8e36ab764587_chrome_LINUX_20201112182204318.mp4
-[36mzalenium2   |[0m 18:22:04.872 INFO - http://172.21.0.3:40000 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 18:22:05.737 INFO - http://172.21.0.3:40000 Logs copied to: /home/seluser/videos/logs/zalenium_74031d17-540c-4a71-8658-8e36ab764587_chrome_LINUX_20201112182204318
-[36mzalenium2   |[0m 18:22:05.791 INFO - http://172.21.0.3:40000 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 18:22:11.499 INFO - http://172.21.0.3:40000 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 18:22:11.500 WARN - Cleaning up stale test sessions on the unregistered node http://172.21.0.3:40000
-[36mzalenium2   |[0m 18:22:13.802 INFO - Registered a node http://172.21.0.4:40001
-[36mzalenium2   |[0m 18:22:13.818 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=ad7def2c-5690-4bf9-bd0a-52636e121aa1, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:22:15.334 INFO - http://172.21.0.4:40001 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:23:03.033 INFO - http://172.21.0.4:40001 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:23:03.160 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:23:03.161 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 18:23:04.087 INFO - http://172.21.0.4:40001 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 2020-11-12 18:23:04 INFO  DefaultDockerClient:678 - Starting container with Id: 127aa380d39b9edaf19b2ef5093bf6666e5c0987512bded548ac2a42c7aea86c
-[36mzalenium2   |[0m 18:23:04.571 INFO - http://172.21.0.4:40001 [bash, -c, stop-video]
-[36mzalenium2   |[0m 18:23:12.951 INFO - [DS] Container zalenium2_40002 is up after ~8 seconds...
-[36mzalenium2   |[0m 18:23:14.476 INFO - http://172.21.0.4:40001 Video file copied to: /home/seluser/videos/zalenium_cbe5416b-7184-4331-9f60-4692b3ef0b8c_chrome_LINUX_20201112182314172.mp4
-[36mzalenium2   |[0m 18:23:14.549 INFO - http://172.21.0.4:40001 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 18:23:15.475 INFO - http://172.21.0.4:40001 Logs copied to: /home/seluser/videos/logs/zalenium_cbe5416b-7184-4331-9f60-4692b3ef0b8c_chrome_LINUX_20201112182314172
-[36mzalenium2   |[0m 18:23:15.606 INFO - http://172.21.0.4:40001 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 18:23:19.835 INFO - http://172.21.0.4:40001 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 18:23:19.836 WARN - Cleaning up stale test sessions on the unregistered node http://172.21.0.4:40001
-[36mzalenium2   |[0m 18:23:22.678 INFO - Registered a node http://172.21.0.3:40002
-[36mzalenium2   |[0m 18:23:22.680 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=684a1988-0846-42d2-a7bc-bc73b6eb4787, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:23:23.590 INFO - http://172.21.0.3:40002 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:24:11.679 INFO - http://172.21.0.3:40002 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:24:11.727 INFO - http://172.21.0.3:40002 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 18:24:11.787 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:24:11.788 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-12 18:24:11 INFO  DefaultDockerClient:678 - Starting container with Id: dc59ef551354f22f94695e6bc6dc831c3f1799635be98e5cff2ef88b9496e8d5
-[36mzalenium2   |[0m 18:24:11.998 INFO - http://172.21.0.3:40002 [bash, -c, stop-video]
-[36mzalenium2   |[0m 18:24:20.755 INFO - [DS] Container zalenium2_40003 is up after ~8 seconds...
-[36mzalenium2   |[0m 18:24:23.166 INFO - http://172.21.0.3:40002 Video file copied to: /home/seluser/videos/zalenium_e5e722a0-2bc6-487f-a513-72f3227e6b4b_chrome_LINUX_20201112182422947.mp4
-[36mzalenium2   |[0m 18:24:23.208 INFO - http://172.21.0.3:40002 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 18:24:23.862 INFO - http://172.21.0.3:40002 Logs copied to: /home/seluser/videos/logs/zalenium_e5e722a0-2bc6-487f-a513-72f3227e6b4b_chrome_LINUX_20201112182422947
-[36mzalenium2   |[0m 18:24:23.925 INFO - http://172.21.0.3:40002 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 18:24:27.235 INFO - http://172.21.0.3:40002 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 18:24:27.236 WARN - Cleaning up stale test sessions on the unregistered node http://172.21.0.3:40002
-[36mzalenium2   |[0m 18:24:30.499 INFO - Registered a node http://172.21.0.4:40003
-[36mzalenium2   |[0m 18:24:30.503 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=f9870537-5bd2-41f7-885a-b33b5dc36e6b, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:24:31.627 INFO - http://172.21.0.4:40003 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:25:20.353 INFO - http://172.21.0.4:40003 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:25:20.447 INFO - http://172.21.0.4:40003 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 18:25:20.453 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:25:20.454 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-12 18:25:20 INFO  DefaultDockerClient:678 - Starting container with Id: 8fb6b421c9238e32dcf59215cadb2299530305975f765151aa90610cdec0a12d
-[36mzalenium2   |[0m 18:25:20.604 INFO - http://172.21.0.4:40003 [bash, -c, stop-video]
-[36mzalenium2   |[0m 18:25:26.999 INFO - [DS] Container zalenium2_40004 is up after ~6 seconds...
-[36mzalenium2   |[0m 18:25:28.587 INFO - http://172.21.0.4:40003 Video file copied to: /home/seluser/videos/zalenium_4e56adc7-38ef-4d31-8a74-4c688a18646a_chrome_LINUX_20201112182528428.mp4
-[36mzalenium2   |[0m 18:25:28.619 INFO - http://172.21.0.4:40003 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 18:25:29.199 INFO - http://172.21.0.4:40003 Logs copied to: /home/seluser/videos/logs/zalenium_4e56adc7-38ef-4d31-8a74-4c688a18646a_chrome_LINUX_20201112182528428
-[36mzalenium2   |[0m 18:25:29.232 INFO - http://172.21.0.4:40003 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 18:25:32.005 INFO - http://172.21.0.4:40003 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 18:25:32.005 WARN - Cleaning up stale test sessions on the unregistered node http://172.21.0.4:40003
-[36mzalenium2   |[0m 18:25:37.023 INFO - Registered a node http://172.21.0.3:40004
-[36mzalenium2   |[0m 18:25:37.026 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=99d2a329-2d8a-44b0-bbb2-94391c91dc90, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:25:37.663 INFO - http://172.21.0.3:40004 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:26:23.862 INFO - http://172.21.0.3:40004 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:26:23.922 INFO - http://172.21.0.3:40004 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 18:26:23.966 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 18:26:23.967 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-12 18:26:24 INFO  DefaultDockerClient:678 - Starting container with Id: 42489262e6c5dfd2e30a1016e2df8d046ec3ca66de3bfde9bb2d413fbb93d800
-[36mzalenium2   |[0m 18:26:24.215 INFO - http://172.21.0.3:40004 [bash, -c, stop-video]
-[36mzalenium2   |[0m 18:26:31.872 INFO - [DS] Container zalenium2_40005 is up after ~7 seconds...
-[36mzalenium2   |[0m 18:26:32.553 INFO - http://172.21.0.3:40004 Video file copied to: /home/seluser/videos/zalenium_60acd4a1-5266-413f-97db-69e1bdeaad86_chrome_LINUX_20201112182632341.mp4
-[36mzalenium2   |[0m 18:26:32.596 INFO - http://172.21.0.3:40004 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 18:26:33.190 INFO - http://172.21.0.3:40004 Logs copied to: /home/seluser/videos/logs/zalenium_60acd4a1-5266-413f-97db-69e1bdeaad86_chrome_LINUX_20201112182632341
-[36mzalenium2   |[0m 18:26:33.231 INFO - http://172.21.0.3:40004 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 18:26:37.263 INFO - http://172.21.0.3:40004 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 18:26:37.263 WARN - Cleaning up stale test sessions on the unregistered node http://172.21.0.3:40004
-[36mzalenium2   |[0m 18:26:41.642 INFO - Registered a node http://172.21.0.4:40005
-[36mzalenium2   |[0m 18:26:41.646 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=5d282082-0ea7-483c-8f34-d438d82ffe97, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 18:26:42.345 INFO - http://172.21.0.4:40005 [bash, -c, start-video]
-[36mzalenium2   |[0m 18:27:23.570 INFO - http://172.21.0.4:40005 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 18:27:23.620 INFO - http://172.21.0.4:40005 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 18:27:23.956 INFO - http://172.21.0.4:40005 [bash, -c, stop-video]
+[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 265ba988952a5b7f7d48d4c02c1cd44a9a528ab6e7d1dfe15572a3420101454f
+[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 8f8cbf3641730400d4b5d1bd40822f60dcabc314c8b797d3bcdb0d234fd5df3b
+[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 077f95b9dc9bf58121cb28a296f2463eee9ba451e2e1cfe1e4b1cf2b0ed710ad
+[36mzalenium2   |[0m 14:36:46.238 INFO - [DS] Container zalenium2_40001 is up after ~7 seconds...
+[36mzalenium2   |[0m 14:36:46.317 INFO - [DS] Container zalenium2_40002 is up after ~7 seconds...
+[36mzalenium2   |[0m 14:36:46.952 INFO - [DS] Container zalenium2_40000 is up after ~8 seconds...
+[36mzalenium2   |[0m 14:36:50.673 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:36:50.765 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2020-11-18 14:36:51 INFO  DefaultDockerClient:678 - Starting container with Id: 97171de3db691dc58607228abcac2755101308a674b927c2b4e13df2359ebbbe
+[36mzalenium2   |[0m 14:36:57.097 INFO - Registered a node http://172.22.0.3:40002
+[36mzalenium2   |[0m 14:36:57.115 INFO - Registered a node http://172.22.0.4:40001
+[36mzalenium2   |[0m 14:36:57.147 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=e18cba00-f0c9-4384-902d-0d48711dbf58, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:36:57.367 INFO - Registered a node http://172.22.0.5:40000
+[36mzalenium2   |[0m 14:36:59.814 INFO - http://172.22.0.3:40002 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:36:59.865 INFO - [DS] Container zalenium2_40003 is up after ~8 seconds...
+[36mzalenium2   |[0m 14:37:10.610 INFO - Registered a node http://172.22.0.6:40003
+[36mzalenium2   |[0m 14:37:43.658 INFO - http://172.22.0.3:40002 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:37:43.865 INFO - http://172.22.0.3:40002 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 14:37:44.280 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:37:44.283 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=da8e72a6-a135-4ac0-be09-b22a6e343318, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:37:45.083 INFO - http://172.22.0.3:40002 [bash, -c, stop-video]
+[36mzalenium2   |[0m 14:37:47.573 INFO - http://172.22.0.4:40001 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:37:54.867 INFO - http://172.22.0.3:40002 Video file copied to: /home/seluser/videos/zalenium_6bcda141-21a6-4749-84e0-f97e1cd359ae_chrome_LINUX_20201118143754648.mp4
+[36mzalenium2   |[0m 14:37:54.918 INFO - http://172.22.0.3:40002 [bash, -c, transfer-logs.sh]
+[36mzalenium2   |[0m 14:37:55.465 INFO - http://172.22.0.3:40002 Logs copied to: /home/seluser/videos/logs/zalenium_6bcda141-21a6-4749-84e0-f97e1cd359ae_chrome_LINUX_20201118143754648
+[36mzalenium2   |[0m 14:37:55.505 INFO - http://172.22.0.3:40002 [bash, -c, cleanup-container.sh]
+[36mzalenium2   |[0m 14:37:59.902 INFO - http://172.22.0.3:40002 Marking the node as down because it was stopped after 1 tests.
+[36mzalenium2   |[0m 14:37:59.902 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.3:40002
+[36mzalenium2   |[0m 14:38:26.040 INFO - http://172.22.0.4:40001 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:38:26.120 INFO - http://172.22.0.4:40001 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 14:38:26.139 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:38:26.147 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=eb815c91-d4ca-4467-b8aa-f0824d1feb70, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:38:26.421 INFO - http://172.22.0.4:40001 [bash, -c, stop-video]
+[36mzalenium2   |[0m 14:38:28.165 INFO - http://172.22.0.5:40000 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:38:33.800 INFO - http://172.22.0.4:40001 Video file copied to: /home/seluser/videos/zalenium_b3e12136-b662-42c3-a22b-b8d135d15ed8_chrome_LINUX_20201118143833582.mp4
+[36mzalenium2   |[0m 14:38:33.863 INFO - http://172.22.0.4:40001 [bash, -c, transfer-logs.sh]
+[36mzalenium2   |[0m 14:38:34.366 INFO - http://172.22.0.4:40001 Logs copied to: /home/seluser/videos/logs/zalenium_b3e12136-b662-42c3-a22b-b8d135d15ed8_chrome_LINUX_20201118143833582
+[36mzalenium2   |[0m 14:38:34.411 INFO - http://172.22.0.4:40001 [bash, -c, cleanup-container.sh]
+[36mzalenium2   |[0m 14:38:37.957 INFO - http://172.22.0.4:40001 Marking the node as down because it was stopped after 1 tests.
+[36mzalenium2   |[0m 14:38:37.957 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.4:40001
+[36mzalenium2   |[0m 14:39:06.941 INFO - http://172.22.0.5:40000 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:39:07.176 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:39:07.195 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=e541f9a5-15a1-4a55-b2ea-5e4ba1274b99, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:39:07.200 INFO - http://172.22.0.5:40000 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 14:39:07.551 INFO - http://172.22.0.5:40000 [bash, -c, stop-video]
+[36mzalenium2   |[0m 14:39:11.290 INFO - http://172.22.0.6:40003 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:39:17.842 INFO - http://172.22.0.5:40000 Video file copied to: /home/seluser/videos/zalenium_ee661e31-d77b-47fd-a1d6-55e8cad3fa2a_chrome_LINUX_20201118143917411.mp4
+[36mzalenium2   |[0m 14:39:17.898 INFO - http://172.22.0.5:40000 [bash, -c, transfer-logs.sh]
+[36mzalenium2   |[0m 14:39:18.923 INFO - http://172.22.0.5:40000 Logs copied to: /home/seluser/videos/logs/zalenium_ee661e31-d77b-47fd-a1d6-55e8cad3fa2a_chrome_LINUX_20201118143917411
+[36mzalenium2   |[0m 14:39:18.992 INFO - http://172.22.0.5:40000 [bash, -c, cleanup-container.sh]
+[36mzalenium2   |[0m 14:39:24.896 INFO - http://172.22.0.5:40000 Marking the node as down because it was stopped after 1 tests.
+[36mzalenium2   |[0m 14:39:24.897 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.5:40000
+[36mzalenium2   |[0m 14:39:48.870 INFO - http://172.22.0.6:40003 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:39:48.926 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:39:48.927 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 14:39:49.907 INFO - http://172.22.0.6:40003 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 2020-11-18 14:39:49 INFO  DefaultDockerClient:678 - Starting container with Id: 14c4a14226c0a82eda14235dbce6521d431e01fc8c5134251cbd6ca14f8c8635
+[36mzalenium2   |[0m 14:39:50.882 INFO - http://172.22.0.6:40003 [bash, -c, stop-video]
+[36mzalenium2   |[0m 14:39:57.250 INFO - [DS] Container zalenium2_40004 is up after ~7 seconds...
+[36mzalenium2   |[0m 14:39:58.799 INFO - http://172.22.0.6:40003 Video file copied to: /home/seluser/videos/zalenium_68cd79df-90cd-4110-9a8f-cc7afb77bc9c_chrome_LINUX_20201118143958644.mp4
+[36mzalenium2   |[0m 14:39:58.863 INFO - http://172.22.0.6:40003 [bash, -c, transfer-logs.sh]
+[36mzalenium2   |[0m 14:39:59.471 INFO - http://172.22.0.6:40003 Logs copied to: /home/seluser/videos/logs/zalenium_68cd79df-90cd-4110-9a8f-cc7afb77bc9c_chrome_LINUX_20201118143958644
+[36mzalenium2   |[0m 14:39:59.511 INFO - http://172.22.0.6:40003 [bash, -c, cleanup-container.sh]
+[36mzalenium2   |[0m 14:40:03.855 INFO - http://172.22.0.6:40003 Marking the node as down because it was stopped after 1 tests.
+[36mzalenium2   |[0m 14:40:03.856 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.6:40003
+[36mzalenium2   |[0m 14:40:06.881 INFO - Registered a node http://172.22.0.3:40004
+[36mzalenium2   |[0m 14:40:06.884 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=66798502-70de-4395-bbfe-015ecf76da96, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:40:07.606 INFO - http://172.22.0.3:40004 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:40:45.892 INFO - http://172.22.0.3:40004 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:40:45.963 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 14:40:45.964 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 14:40:46.919 INFO - http://172.22.0.3:40004 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 2020-11-18 14:40:46 INFO  DefaultDockerClient:678 - Starting container with Id: 0089ecf58812318fad8c9481cc1816f68e59211205fb5f434c01210b163038a3
+[36mzalenium2   |[0m 14:40:47.071 INFO - http://172.22.0.3:40004 [bash, -c, stop-video]
+[36mzalenium2   |[0m 14:40:53.293 INFO - [DS] Container zalenium2_40005 is up after ~6 seconds...
+[36mzalenium2   |[0m 14:40:54.867 INFO - http://172.22.0.3:40004 Video file copied to: /home/seluser/videos/zalenium_3fa7c56a-9a27-4751-a7c2-4d90fdcd7e8b_chrome_LINUX_20201118144054726.mp4
+[36mzalenium2   |[0m 14:40:54.906 INFO - http://172.22.0.3:40004 [bash, -c, transfer-logs.sh]
+[36mzalenium2   |[0m 14:40:55.360 INFO - http://172.22.0.3:40004 Logs copied to: /home/seluser/videos/logs/zalenium_3fa7c56a-9a27-4751-a7c2-4d90fdcd7e8b_chrome_LINUX_20201118144054726
+[36mzalenium2   |[0m 14:40:55.424 INFO - http://172.22.0.3:40004 [bash, -c, cleanup-container.sh]
+[36mzalenium2   |[0m 14:40:58.077 INFO - http://172.22.0.3:40004 Marking the node as down because it was stopped after 1 tests.
+[36mzalenium2   |[0m 14:40:58.077 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.3:40004
+[36mzalenium2   |[0m 14:41:02.697 INFO - Registered a node http://172.22.0.4:40005
+[36mzalenium2   |[0m 14:41:02.699 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=f0b26c7b-2620-4576-b018-f1fdbb3ce6bf, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
+[36mzalenium2   |[0m 14:41:03.611 INFO - http://172.22.0.4:40005 [bash, -c, start-video]
+[36mzalenium2   |[0m 14:41:40.519 INFO - http://172.22.0.4:40005 AFTER_SESSION command received. Node should shutdown soon...
+[36mzalenium2   |[0m 14:41:40.548 INFO - http://172.22.0.4:40005 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
+[36mzalenium2   |[0m 14:41:40.738 INFO - http://172.22.0.4:40005 [bash, -c, stop-video]
 [36mzalenium2   |[0m Trapped SIGTERM/SIGINT so shutting down Zalenium gracefully...
-[36mzalenium2   |[0m -- LOG 18:27:25:759099200 WaitForVideosTransferred succeeded for a total of 34
+[36mzalenium2   |[0m -- LOG 14:41:42:801274600 WaitForVideosTransferred succeeded for a total of 49
 [36mzalenium2   |[0m Stopping Hub...
 [36mzalenium2   |[0m Stopping DockerSeleniumStarter node...
-[36mzalenium2   |[0m -- LOG 18:27:25:784075800 Ensuring no stale Zalenium related containers are still around...
+[36mzalenium2   |[0m -- LOG 14:41:42:831078300 Ensuring no stale Zalenium related containers are still around...
 [36mzalenium2   |[0m Removing exited docker-selenium containers...
-[36mzalenium2   |[0m 42489262e6c5
+[36mzalenium2   |[0m 0089ecf58812
 [36mzalenium2 exited with code 0
 [0m

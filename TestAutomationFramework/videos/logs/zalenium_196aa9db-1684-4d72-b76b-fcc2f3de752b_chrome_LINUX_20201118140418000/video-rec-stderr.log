@@ -1,0 +1,54 @@
+/usr/bin/start-video-rec.sh: line 93: kill: (542) - No such process
+ffmpeg version 2.8.17-0ubuntu0.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 20160609
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, matroska,webm, from '/home/seluser/videos/vid_chrome_or_firefox_40000.mkv':
+  Metadata:
+    ENCODER         : Lavf56.40.101
+  Duration: 00:00:44.80, start: 0.000000, bitrate: 205 kb/s
+    Stream #0:0: Video: h264 (Constrained Baseline), yuv420p, 1366x768, SAR 1:1 DAR 683:384, 10 fps, 10 tbr, 1k tbn, 20 tbc (default)
+    Metadata:
+      ENCODER         : Lavc56.60.100 libx264
+      DURATION        : 00:00:44.800000000
+[libx264 @ 0x224d660] using SAR=1/1
+[libx264 @ 0x224d660] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[libx264 @ 0x224d660] profile Constrained Baseline, level 3.2
+[libx264 @ 0x224d660] 264 - core 148 r2643 5c65704 - H.264/MPEG-4 AVC codec - Copyleft 2003-2015 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=10 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to '/home/seluser/videos/vid_chrome_or_firefox_40000.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 1366x768 [SAR 1:1 DAR 683:384], q=-1--1, 10 fps, 10240 tbn, 10 tbc (default)
+    Metadata:
+      DURATION        : 00:00:44.800000000
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=   62 fps=0.0 q=9.0 size=      98kB time=00:00:05.80 bitrate= 138.8kbits/s    
+frame=  103 fps=101 q=10.0 size=     251kB time=00:00:09.90 bitrate= 207.7kbits/s    
+frame=  158 fps=104 q=10.0 size=     668kB time=00:00:15.40 bitrate= 355.3kbits/s    
+frame=  208 fps=103 q=9.0 size=     676kB time=00:00:20.40 bitrate= 271.3kbits/s    
+frame=  243 fps= 96 q=9.0 size=     677kB time=00:00:23.90 bitrate= 232.2kbits/s    
+frame=  282 fps= 93 q=10.0 size=     842kB time=00:00:27.80 bitrate= 248.1kbits/s    
+frame=  317 fps= 89 q=9.0 size=    1076kB time=00:00:31.30 bitrate= 281.6kbits/s    
+frame=  361 fps= 89 q=9.0 size=    1081kB time=00:00:35.70 bitrate= 248.1kbits/s    
+frame=  403 fps= 88 q=9.0 size=    1083kB time=00:00:39.90 bitrate= 222.4kbits/s    
+frame=  448 fps= 88 q=-1.0 Lsize=    1128kB time=00:00:44.80 bitrate= 206.2kbits/s    
+video:1125kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.228197%
+[libx264 @ 0x224d660] frame I:2     Avg QP:13.00  size: 69250
+[libx264 @ 0x224d660] frame P:446   Avg QP:10.24  size:  2271
+[libx264 @ 0x224d660] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0x224d660] mb P  I16..4:  2.1%  0.0%  0.0%  P16..4:  2.1%  0.0%  0.0%  0.0%  0.0%    skip:95.8%
+[libx264 @ 0x224d660] coded y,uvDC,uvAC intra: 13.3% 8.7% 8.0% inter: 0.9% 1.0% 0.6%
+[libx264 @ 0x224d660] i16 v,h,dc,p: 73% 25%  1%  1%
+[libx264 @ 0x224d660] i8c dc,h,v,p: 80% 16%  3%  1%
+[libx264 @ 0x224d660] kb/s:205.62

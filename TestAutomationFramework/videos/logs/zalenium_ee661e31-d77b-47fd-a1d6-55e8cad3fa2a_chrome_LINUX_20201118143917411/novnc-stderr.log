@@ -1,0 +1,31 @@
+WebSocket server settings:
+  - Listen on :50000
+  - Flash security policy server
+  - Web server. Web root: /home/seluser/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :50000 to localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:37:23] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:37:23] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:37:23] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:37:30] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:37:30] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:37:30] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:37:37] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:37:37] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:37:37] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:37:42] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:37:42] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:37:42] connecting to: localhost:60000
+handler exception: [Errno 104] Connection reset by peer
+172.22.0.2 - - [18/Nov/2020 14:37:47] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:37:47] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:37:47] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:38:19] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:38:19] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:38:19] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:38:45] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:38:45] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:38:45] connecting to: localhost:60000
+172.22.0.2 - - [18/Nov/2020 14:39:03] 172.22.0.2: Plain non-SSL (ws://) WebSocket connection
+172.22.0.2 - - [18/Nov/2020 14:39:03] 172.22.0.2: Version hybi-13, base64: 'False'
+172.22.0.2 - - [18/Nov/2020 14:39:03] connecting to: localhost:60000

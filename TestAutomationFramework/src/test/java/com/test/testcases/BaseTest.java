@@ -107,12 +107,15 @@ public class BaseTest {
 
 				Process process = runtime.exec("cmd /c start dockerUp.bat");
 
-				final int exitVal = process.waitFor();
-
 				/*
 				 * do { Thread.sleep(5000); System.out.println("Waiting for the process....");
 				 * }while(exitVal!=0);
 				 */
+				
+				process.waitFor();
+				Thread.sleep(10000);
+				verifyDockerIsUp();
+				
 				runtime.exec("taskkill /f /im cmd.exe") ;
 			}
 			else if(DriverFactory.getRemoteMode().equalsIgnoreCase("Zalenium")) {

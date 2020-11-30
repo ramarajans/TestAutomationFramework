@@ -1,0 +1,25 @@
+--40001LOG 14:13:03:083460600 Waiting for VNC to be ready via process, nc or netstat on VNC_PORT=60001...
+--40001LOG 14:13:03:150088800 By_process?
+.--40001LOG 14:13:03:424902100 By_process:OK
+--40001LOG 14:13:03:513767600 By_nc?
+...............................--40001LOG 14:13:09:843670900 By_nc:OK
+--40001LOG 14:13:09:872578300 By_log_stderr?
+.18/11/2020 14:13:10 Got connection from client 127.0.0.1
+18/11/2020 14:13:10 Got connection from client 127.0.0.1
+--40001LOG 14:13:10:089278400 By_log_stderr:OK
+--40001LOG 14:13:10:131562600 By_log_stdout?
+PORT=60001
+--40001LOG 14:13:10:185266400 By_log_stdout:OK
+--40001LOG 14:13:10:229087500 Done wait-vnc.sh
+Warning: could not find self.pem
+Using local websockify at /home/seluser/noVNC/utils/websockify/run
+Starting webserver and WebSockets proxy on port 50001
+
+
+Navigate to this URL:
+
+    http://2bdfdacb23c2:50001/vnc.html?host=2bdfdacb23c2&port=50001
+
+Press Ctrl-C to exit
+
+

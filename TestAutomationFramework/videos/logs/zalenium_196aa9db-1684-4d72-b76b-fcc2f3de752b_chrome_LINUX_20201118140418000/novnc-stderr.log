@@ -1,0 +1,30 @@
+WebSocket server settings:
+  - Listen on :50000
+  - Flash security policy server
+  - Web server. Web root: /home/seluser/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :50000 to localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:28] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:28] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:28] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:34] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:34] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:34] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:38] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:38] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:38] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:40] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:40] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:40] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:41] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:41] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:41] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:56] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:56] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:56] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:03:59] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:03:59] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:03:59] connecting to: localhost:60000
+172.20.0.2 - - [18/Nov/2020 14:04:04] 172.20.0.2: Plain non-SSL (ws://) WebSocket connection
+172.20.0.2 - - [18/Nov/2020 14:04:04] 172.20.0.2: Version hybi-13, base64: 'False'
+172.20.0.2 - - [18/Nov/2020 14:04:04] connecting to: localhost:60000

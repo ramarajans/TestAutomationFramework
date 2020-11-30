@@ -2,20 +2,20 @@
 <testng-results retried="3" ignored="0" total="6" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-12T21:50:43 IST" name="Platform Suite" finished-at="2020-11-12T21:57:23 IST" duration-ms="399816">
+  <suite started-at="2020-11-18T18:06:48 IST" name="Platform Suite" finished-at="2020-11-18T18:11:40 IST" duration-ms="291642">
     <groups>
     </groups>
-    <test started-at="2020-11-12T21:50:43 IST" name="Platform Sign Up" finished-at="2020-11-12T21:57:23 IST" duration-ms="399816">
+    <test started-at="2020-11-18T18:06:48 IST" name="Platform Sign Up" finished-at="2020-11-18T18:11:40 IST" duration-ms="291642">
       <class name="com.test.testcases.PlatformSignUpTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:50:23 IST" name="beforeSuite" finished-at="2020-11-12T21:50:43 IST" duration-ms="20455" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:06:28 IST" name="beforeSuite" finished-at="2020-11-18T18:06:48 IST" duration-ms="20258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:50:44 IST" name="beforeMethod" finished-at="2020-11-12T21:50:44 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:06:49 IST" name="beforeMethod" finished-at="2020-11-18T18:06:49 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:50:44 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:51:52 IST" duration-ms="67385" status="SKIP">
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:06:49 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:07:43 IST" duration-ms="53652" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -60,37 +60,24 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:51:52 IST" name="afterMethod" finished-at="2020-11-12T21:51:52 IST" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:07:43 IST" name="afterMethod" finished-at="2020-11-18T18:07:44 IST" duration-ms="795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:51:52 IST" name="beforeMethod" finished-at="2020-11-12T21:51:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:07:44 IST" name="beforeMethod" finished-at="2020-11-18T18:07:44 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:51:52 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:53:02 IST" duration-ms="69941" status="FAIL">
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:07:44 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:08:25 IST" duration-ms="41694" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -135,37 +122,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:53:02 IST" name="afterMethod" finished-at="2020-11-12T21:53:03 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:08:25 IST" name="afterMethod" finished-at="2020-11-18T18:08:26 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:53:03 IST" name="beforeMethod" finished-at="2020-11-12T21:53:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:53:03 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:54:11 IST" duration-ms="68442" status="SKIP">
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:08:26 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:09:06 IST" duration-ms="40686" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -210,37 +180,24 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:54:11 IST" name="afterMethod" finished-at="2020-11-12T21:54:11 IST" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:54:11 IST" name="beforeMethod" finished-at="2020-11-12T21:54:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:08:26 IST" name="beforeMethod" finished-at="2020-11-18T18:08:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:54:11 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:55:20 IST" duration-ms="68484" status="FAIL">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:06 IST" name="afterMethod" finished-at="2020-11-18T18:09:07 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:07 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:09:48 IST" duration-ms="41666" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -285,37 +242,28 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:55:20 IST" name="afterMethod" finished-at="2020-11-12T21:55:20 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:55:20 IST" name="beforeMethod" finished-at="2020-11-12T21:55:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:07 IST" name="beforeMethod" finished-at="2020-11-18T18:09:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:55:20 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:56:23 IST" duration-ms="63343" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:48 IST" name="afterMethod" finished-at="2020-11-18T18:09:48 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:48 IST" name="beforeMethod" finished-at="2020-11-18T18:09:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:09:48 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:10:45 IST" duration-ms="56893" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -360,33 +308,24 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:56:23 IST" name="afterMethod" finished-at="2020-11-12T21:56:23 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:10:45 IST" name="afterMethod" finished-at="2020-11-18T18:10:45 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:56:23 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-12T21:57:23 IST" duration-ms="59471" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:10:45 IST" name="beforeMethod" finished-at="2020-11-18T18:10:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:10:45 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-18T18:11:40 IST" duration-ms="54502" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -431,37 +370,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:56:23 IST" name="beforeMethod" finished-at="2020-11-12T21:56:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:57:23 IST" name="afterMethod" finished-at="2020-11-12T21:57:23 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:11:40 IST" name="afterMethod" finished-at="2020-11-18T18:11:40 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@1cbb87f3]" started-at="2020-11-12T21:57:23 IST" name="afterSuite" finished-at="2020-11-12T21:57:43 IST" duration-ms="20047" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@a2431d0]" started-at="2020-11-18T18:11:40 IST" name="afterSuite" finished-at="2020-11-18T18:12:00 IST" duration-ms="20026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
