@@ -2,20 +2,20 @@
 <testng-results retried="3" ignored="0" total="6" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-30T18:25:18 IST" name="Platform Suite" finished-at="2020-11-30T18:25:23 IST" duration-ms="5048">
+  <suite started-at="2021-03-11T00:28:27 IST" name="Platform Suite" finished-at="2021-03-11T19:39:45 IST" duration-ms="69077319">
     <groups>
     </groups>
-    <test started-at="2020-11-30T18:25:18 IST" name="Platform Sign Up" finished-at="2020-11-30T18:25:23 IST" duration-ms="5048">
+    <test started-at="2021-03-11T00:28:27 IST" name="Platform Sign Up" finished-at="2021-03-11T19:39:45 IST" duration-ms="69077319">
       <class name="com.test.testcases.PlatformSignUpTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:18 IST" name="beforeSuite" finished-at="2020-11-30T18:25:18 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T00:28:07 IST" name="beforeSuite" finished-at="2021-03-11T00:28:27 IST" duration-ms="20497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:18 IST" name="beforeMethod" finished-at="2020-11-30T18:25:18 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T00:28:29 IST" name="beforeMethod" finished-at="2021-03-11T00:28:29 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:18 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:19 IST" duration-ms="868" status="SKIP">
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T00:28:29 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T02:16:48 IST" duration-ms="6499439" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -38,54 +38,77 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:19 IST" name="afterMethod" finished-at="2020-11-30T18:25:20 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T02:16:48 IST" name="afterMethod" finished-at="2021-03-11T02:16:49 IST" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:20 IST" name="beforeMethod" finished-at="2020-11-30T18:25:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T02:16:49 IST" name="beforeMethod" finished-at="2021-03-11T02:16:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:20 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:20 IST" duration-ms="579" status="FAIL">
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T02:16:49 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T19:39:44 IST" duration-ms="62574930" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -108,54 +131,77 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:20 IST" name="afterMethod" finished-at="2020-11-30T18:25:20 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="afterMethod" finished-at="2021-03-11T19:39:44 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:20 IST" name="beforeMethod" finished-at="2020-11-30T18:25:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="beforeMethod" finished-at="2021-03-11T19:39:44 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:20 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:21 IST" duration-ms="532" status="SKIP">
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T19:39:44 IST" duration-ms="61" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -178,50 +224,77 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:21 IST" name="afterMethod" finished-at="2020-11-30T18:25:21 IST" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="afterMethod" finished-at="2021-03-11T19:39:44 IST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:21 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:22 IST" duration-ms="555" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="beforeMethod" finished-at="2021-03-11T19:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T19:39:44 IST" duration-ms="17" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -244,58 +317,77 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:21 IST" name="beforeMethod" finished-at="2020-11-30T18:25:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="afterMethod" finished-at="2020-11-30T18:25:22 IST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:44 IST" name="afterMethod" finished-at="2021-03-11T19:39:45 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="beforeMethod" finished-at="2020-11-30T18:25:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="beforeMethod" finished-at="2021-03-11T19:39:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:22 IST" duration-ms="615" status="SKIP">
+        <test-method retried="true" signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T19:39:45 IST" duration-ms="22" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -318,54 +410,77 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="afterMethod" finished-at="2020-11-30T18:25:22 IST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="afterMethod" finished-at="2021-03-11T19:39:45 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="beforeMethod" finished-at="2020-11-30T18:25:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="beforeMethod" finished-at="2021-03-11T19:39:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:22 IST" name="signUpConversationalAI" data-provider="data" finished-at="2020-11-30T18:25:23 IST" duration-ms="450" status="FAIL">
+        <test-method signature="signUpConversationalAI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="signUpConversationalAI" data-provider="data" finished-at="2021-03-11T19:39:45 IST" duration-ms="31" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -388,50 +503,73 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NoSuchMethodError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA['java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)']]>
+              <![CDATA[Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)'
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
+
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'W-7FM3M13', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpConversationalAI -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:23 IST" name="afterMethod" finished-at="2020-11-30T18:25:23 IST" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="afterMethod" finished-at="2021-03-11T19:39:45 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@5ace1ed4]" started-at="2020-11-30T18:25:23 IST" name="afterSuite" finished-at="2020-11-30T18:25:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.testcases.PlatformSignUpTest@3059cbc]" started-at="2021-03-11T19:39:45 IST" name="afterSuite" finished-at="2021-03-11T19:40:05 IST" duration-ms="20101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

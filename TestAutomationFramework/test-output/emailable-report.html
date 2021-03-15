@@ -9,111 +9,207 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Platform Suite</th></tr>
-<tr><td><a href="#t0">Platform Sign Up</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">3</td><td class="num">5,048</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Platform Sign Up</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">3</td><td class="num">69,077,319</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Platform Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Platform Sign Up &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.test.testcases.PlatformSignUpTest</td><td><a href="#m0">signUpConversationalAI</a></td><td rowspan="3">1606740921468</td><td rowspan="3">555</td></tr><tr class="failedeven"><td><a href="#m1">signUpConversationalAI</a></td></tr><tr class="failedeven"><td><a href="#m2">signUpConversationalAI</a></td></tr><tr><th colspan="4">Platform Sign Up &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.test.testcases.PlatformSignUpTest</td><td><a href="#m3">signUpConversationalAI</a></td><td rowspan="3">1606740920854</td><td rowspan="3">532</td></tr><tr class="retriedeven"><td><a href="#m4">signUpConversationalAI</a></td></tr><tr class="retriedeven"><td><a href="#m5">signUpConversationalAI</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Platform Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Platform Sign Up &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.test.testcases.PlatformSignUpTest</td><td><a href="#m0">signUpConversationalAI</a></td><td rowspan="3">1615471784935</td><td rowspan="3">17</td></tr><tr class="failedeven"><td><a href="#m1">signUpConversationalAI</a></td></tr><tr class="failedeven"><td><a href="#m2">signUpConversationalAI</a></td></tr><tr><th colspan="4">Platform Sign Up &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.test.testcases.PlatformSignUpTest</td><td><a href="#m3">signUpConversationalAI</a></td><td rowspan="3">1615471784726</td><td rowspan="3">61</td></tr><tr class="retriedeven"><td><a href="#m4">signUpConversationalAI</a></td></tr><tr class="retriedeven"><td><a href="#m5">signUpConversationalAI</a></td></tr></tbody>
 </table>
-<h2>Platform Sign Up</h2><h3 id="m0">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sachin</td><td>Tendulkar</td><td>test1@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h2>Platform Sign Up</h2><h3 id="m0">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sachin</td><td>Tendulkar</td><td>test1@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Ramarajan</td><td>Sampath</td><td>testdqefewfewf@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h3 id="m1">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Jan</td><td>Gilg</td><td>test3@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Jan</td><td>Gilg</td><td>test3@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h3 id="m2">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Ramarajan</td><td>Sampath</td><td>testdqefewfewf@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sachin</td><td>Tendulkar</td><td>test1@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h3 id="m3">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sachin</td><td>Tendulkar</td><td>test1@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Jan</td><td>Gilg</td><td>test3@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h3 id="m4">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Ramarajan</td><td>Sampath</td><td>testdqefewfewf@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;504 Gateway Time-out&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;504 Gateway Time-out&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Ramarajan</td><td>Sampath</td><td>testdqefewfewf@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.NoSuchMethodError: &apos;java.lang.String org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)&apos;
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitNoLog(Shell.java:66)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:55)
-	at io.github.bonigarcia.wdm.versions.Shell.runAndWait(Shell.java:49)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionInWindows(VersionDetector.java:220)
-	at io.github.bonigarcia.wdm.versions.VersionDetector.getDefaultBrowserVersion(VersionDetector.java:180)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getBrowserVersionFromTheShell(ChromeDriverManager.java:124)
-	at io.github.bonigarcia.wdm.WebDriverManager.detectBrowserVersion(WebDriverManager.java:718)
-	at io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:587)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:539)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:287)
-	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:214)
+<h3 id="m5">com.test.testcases.PlatformSignUpTest#signUpConversationalAI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Jan</td><td>Gilg</td><td>test3@sap.com</td><td>Test$123</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Unable to parse remote response: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor=&quot;white&quot;&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.10.3 (Ubuntu)&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.test.testcases.BaseTest.openBrowser(BaseTest.java:263)
 	at com.test.testcases.PlatformSignUpTest.signUpConversationalAI(PlatformSignUpTest.java:44)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;W-7FM3M13&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 23 more
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

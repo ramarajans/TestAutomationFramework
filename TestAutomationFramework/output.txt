@@ -1,146 +1,158 @@
 Attaching to zalenium2
 [36mzalenium2   |[0m Docker version 17.09.1-ce, build 19e2cf6
-[36mzalenium2   |[0m -- LOG 14:36:31:713287100 Ensuring docker works...
-[36mzalenium2   |[0m -- LOG 14:36:31:756185200 Ensuring no stale Zalenium related containers are still around...
-[36mzalenium2   |[0m -- LOG 14:36:31:776089600 Ensuring docker-selenium is available...
-[36mzalenium2   |[0m -- LOG 14:36:31:799220600 Running additional checks...
+[36mzalenium2   |[0m -- LOG 22:55:28:062468300 Ensuring docker works...
+[36mzalenium2   |[0m -- LOG 22:55:28:148921200 Ensuring no stale Zalenium related containers are still around...
+[36mzalenium2   |[0m -- LOG 22:55:28:178742400 Ensuring docker-selenium is available...
+[36mzalenium2   |[0m -- LOG 22:55:28:214494700 Running additional checks...
 [36mzalenium2   |[0m Copying files for Dashboard...
 [36mzalenium2   |[0m Starting Nginx reverse proxy...
 [36mzalenium2   |[0m Starting Selenium Hub...
-[36mzalenium2   |[0m ...14:36:32.441 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
-[36mzalenium2   |[0m 14:36:32.459 INFO - Launching Selenium Grid hub on port 4445
-[36mzalenium2   |[0m ...14:36:33.320 INFO - binding de.zalando.ep.zalenium.servlet.LivePreviewServlet to /grid/admin/LivePreviewServlet/*
-[36mzalenium2   |[0m 14:36:33.325 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumConsoleServlet to /grid/admin/ZaleniumConsoleServlet/*
-[36mzalenium2   |[0m 14:36:33.327 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumResourceServlet to /grid/admin/ZaleniumResourceServlet/*
-[36mzalenium2   |[0m 14:36:33.331 INFO - binding de.zalando.ep.zalenium.dashboard.DashboardCleanupServlet to /grid/admin/DashboardCleanupServlet/*
-[36mzalenium2   |[0m 14:36:33.337 INFO - binding de.zalando.ep.zalenium.servlet.VncAuthenticationServlet to /grid/admin/VncAuthenticationServlet/*
-[36mzalenium2   |[0m ..2020-11-18 14:36:33 INFO  log:192 - Logging initialized @1778ms to org.seleniumhq.jetty9.util.log.Slf4jLog
-[36mzalenium2   |[0m .2020-11-18 14:36:33 INFO  Server:373 - jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:364 - DefaultSessionIdManager workerName=node0
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:369 - No SessionScavenger set, using defaults
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  session:149 - Scavenging every 660000ms
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  ContextHandler:788 - Started o.s.j.s.ServletContextHandler@2b6856dd{/,null,AVAILABLE}
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  AbstractConnector:288 - Started ServerConnector@65b9be1e{HTTP/1.1,[http/1.1]}{0.0.0.0:4445}
-[36mzalenium2   |[0m 2020-11-18 14:36:33 INFO  Server:410 - Started @1958ms
-[36mzalenium2   |[0m 14:36:33.921 INFO - Selenium Grid hub is up and running
-[36mzalenium2   |[0m 14:36:33.922 INFO - Nodes should register to http://172.22.0.2:4445/grid/register/
-[36mzalenium2   |[0m 14:36:33.923 INFO - Clients should connect to http://172.22.0.2:4445/wd/hub
+[36mzalenium2   |[0m ..22:55:28.728 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 22:55:28.730 INFO - Launching Selenium Grid hub on port 4445
+[36mzalenium2   |[0m ..22:55:29.135 INFO - binding de.zalando.ep.zalenium.servlet.LivePreviewServlet to /grid/admin/LivePreviewServlet/*
+[36mzalenium2   |[0m 22:55:29.138 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumConsoleServlet to /grid/admin/ZaleniumConsoleServlet/*
+[36mzalenium2   |[0m 22:55:29.141 INFO - binding de.zalando.ep.zalenium.servlet.ZaleniumResourceServlet to /grid/admin/ZaleniumResourceServlet/*
+[36mzalenium2   |[0m 22:55:29.143 INFO - binding de.zalando.ep.zalenium.dashboard.DashboardCleanupServlet to /grid/admin/DashboardCleanupServlet/*
+[36mzalenium2   |[0m 22:55:29.146 INFO - binding de.zalando.ep.zalenium.servlet.VncAuthenticationServlet to /grid/admin/VncAuthenticationServlet/*
+[36mzalenium2   |[0m ..2021-03-10 22:55:29 INFO  log:192 - Logging initialized @1146ms to org.seleniumhq.jetty9.util.log.Slf4jLog
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  Server:373 - jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  session:364 - DefaultSessionIdManager workerName=node0
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  session:369 - No SessionScavenger set, using defaults
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  session:149 - Scavenging every 600000ms
+[36mzalenium2   |[0m .2021-03-10 22:55:29 INFO  ContextHandler:788 - Started o.s.j.s.ServletContextHandler@2b6856dd{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  AbstractConnector:288 - Started ServerConnector@22635ba0{HTTP/1.1,[http/1.1]}{0.0.0.0:4445}
+[36mzalenium2   |[0m 2021-03-10 22:55:29 INFO  Server:410 - Started @1368ms
+[36mzalenium2   |[0m 22:55:29.797 INFO - Selenium Grid hub is up and running
+[36mzalenium2   |[0m 22:55:29.799 INFO - Nodes should register to http://172.22.0.2:4445/grid/register/
+[36mzalenium2   |[0m 22:55:29.800 INFO - Clients should connect to http://172.22.0.2:4445/wd/hub
 [36mzalenium2   |[0m Selenium Hub started!
 [36mzalenium2   |[0m Starting DockerSeleniumStarter node...
-[36mzalenium2   |[0m ..14:36:34.590 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
-[36mzalenium2   |[0m 14:36:34.596 INFO - Launching a Selenium Grid node on port 30000
-[36mzalenium2   |[0m ..2020-11-18 14:36:34.981:INFO::main: Logging initialized @787ms to org.seleniumhq.jetty9.util.log.StdErrLog
-[36mzalenium2   |[0m .2020-11-18 14:36:35.115:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
-[36mzalenium2   |[0m 2020-11-18 14:36:35.137:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1dde4cb2{/,null,STARTING} has uncovered http methods for path: /
-[36mzalenium2   |[0m 2020-11-18 14:36:35.142:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1dde4cb2{/,null,AVAILABLE}
-[36mzalenium2   |[0m 2020-11-18 14:36:35.158:INFO:osjs.AbstractConnector:main: Started ServerConnector@2f54a188{HTTP/1.1,[http/1.1]}{0.0.0.0:30000}
-[36mzalenium2   |[0m 2020-11-18 14:36:35.159:INFO:osjs.Server:main: Started @966ms
-[36mzalenium2   |[0m 14:36:35.159 INFO - Selenium Server is up and running on port 30000
-[36mzalenium2   |[0m 14:36:35.160 INFO - Selenium Grid node is up and ready to register to the hub
-[36mzalenium2   |[0m 14:36:35.178 INFO - Registering the node to the hub: http://localhost:4444/grid/register
-[36mzalenium2   |[0m 14:36:35.468 INFO - Registered a node http://172.22.0.2:30000
-[36mzalenium2   |[0m 14:36:35.473 INFO - [DS]  Setting up 3 nodes...
-[36mzalenium2   |[0m 14:36:35.474 INFO - Updating the node configuration from the hub
-[36mzalenium2   |[0m 14:36:35.484 INFO - 3 containers were created, it will take a bit more until all get registered.
-[36mzalenium2   |[0m 14:36:35.499 INFO - The node is registered to the hub and ready to use
+[36mzalenium2   |[0m ...22:55:30.834 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+[36mzalenium2   |[0m 22:55:30.836 INFO - Launching a Selenium Grid node on port 30000
+[36mzalenium2   |[0m ..2021-03-10 22:55:31.246:INFO::main: Logging initialized @1035ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mzalenium2   |[0m .2021-03-10 22:55:31.375:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[36mzalenium2   |[0m 2021-03-10 22:55:31.405:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1dde4cb2{/,null,STARTING} has uncovered http methods for path: /
+[36mzalenium2   |[0m 2021-03-10 22:55:31.410:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1dde4cb2{/,null,AVAILABLE}
+[36mzalenium2   |[0m 2021-03-10 22:55:31.430:INFO:osjs.AbstractConnector:main: Started ServerConnector@294425a7{HTTP/1.1,[http/1.1]}{0.0.0.0:30000}
+[36mzalenium2   |[0m 2021-03-10 22:55:31.430:INFO:osjs.Server:main: Started @1219ms
+[36mzalenium2   |[0m 22:55:31.430 INFO - Selenium Server is up and running on port 30000
+[36mzalenium2   |[0m 22:55:31.431 INFO - Selenium Grid node is up and ready to register to the hub
+[36mzalenium2   |[0m 22:55:31.448 INFO - Registering the node to the hub: http://localhost:4444/grid/register
+[36mzalenium2   |[0m 22:55:31.671 INFO - Registered a node http://172.22.0.2:30000
+[36mzalenium2   |[0m 22:55:31.673 INFO - [DS]  Setting up 3 nodes...
+[36mzalenium2   |[0m 22:55:31.678 INFO - 3 containers were created, it will take a bit more until all get registered.
+[36mzalenium2   |[0m 22:55:31.683 INFO - Updating the node configuration from the hub
+[36mzalenium2   |[0m 22:55:31.707 INFO - The node is registered to the hub and ready to use
 [36mzalenium2   |[0m DockerSeleniumStarter node started!
 [36mzalenium2   |[0m Sauce Labs not enabled...
 [36mzalenium2   |[0m Browser Stack not enabled...
 [36mzalenium2   |[0m TestingBot not enabled...
 [36mzalenium2   |[0m Zalenium is now ready!
-[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 265ba988952a5b7f7d48d4c02c1cd44a9a528ab6e7d1dfe15572a3420101454f
-[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 8f8cbf3641730400d4b5d1bd40822f60dcabc314c8b797d3bcdb0d234fd5df3b
-[36mzalenium2   |[0m 2020-11-18 14:36:37 INFO  DefaultDockerClient:678 - Starting container with Id: 077f95b9dc9bf58121cb28a296f2463eee9ba451e2e1cfe1e4b1cf2b0ed710ad
-[36mzalenium2   |[0m 14:36:46.238 INFO - [DS] Container zalenium2_40001 is up after ~7 seconds...
-[36mzalenium2   |[0m 14:36:46.317 INFO - [DS] Container zalenium2_40002 is up after ~7 seconds...
-[36mzalenium2   |[0m 14:36:46.952 INFO - [DS] Container zalenium2_40000 is up after ~8 seconds...
-[36mzalenium2   |[0m 14:36:50.673 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:36:50.765 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 2020-11-18 14:36:51 INFO  DefaultDockerClient:678 - Starting container with Id: 97171de3db691dc58607228abcac2755101308a674b927c2b4e13df2359ebbbe
-[36mzalenium2   |[0m 14:36:57.097 INFO - Registered a node http://172.22.0.3:40002
-[36mzalenium2   |[0m 14:36:57.115 INFO - Registered a node http://172.22.0.4:40001
-[36mzalenium2   |[0m 14:36:57.147 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=e18cba00-f0c9-4384-902d-0d48711dbf58, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:36:57.367 INFO - Registered a node http://172.22.0.5:40000
-[36mzalenium2   |[0m 14:36:59.814 INFO - http://172.22.0.3:40002 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:36:59.865 INFO - [DS] Container zalenium2_40003 is up after ~8 seconds...
-[36mzalenium2   |[0m 14:37:10.610 INFO - Registered a node http://172.22.0.6:40003
-[36mzalenium2   |[0m 14:37:43.658 INFO - http://172.22.0.3:40002 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:37:43.865 INFO - http://172.22.0.3:40002 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 14:37:44.280 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:37:44.283 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=da8e72a6-a135-4ac0-be09-b22a6e343318, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:37:45.083 INFO - http://172.22.0.3:40002 [bash, -c, stop-video]
-[36mzalenium2   |[0m 14:37:47.573 INFO - http://172.22.0.4:40001 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:37:54.867 INFO - http://172.22.0.3:40002 Video file copied to: /home/seluser/videos/zalenium_6bcda141-21a6-4749-84e0-f97e1cd359ae_chrome_LINUX_20201118143754648.mp4
-[36mzalenium2   |[0m 14:37:54.918 INFO - http://172.22.0.3:40002 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 14:37:55.465 INFO - http://172.22.0.3:40002 Logs copied to: /home/seluser/videos/logs/zalenium_6bcda141-21a6-4749-84e0-f97e1cd359ae_chrome_LINUX_20201118143754648
-[36mzalenium2   |[0m 14:37:55.505 INFO - http://172.22.0.3:40002 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 14:37:59.902 INFO - http://172.22.0.3:40002 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 14:37:59.902 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.3:40002
-[36mzalenium2   |[0m 14:38:26.040 INFO - http://172.22.0.4:40001 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:38:26.120 INFO - http://172.22.0.4:40001 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 14:38:26.139 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:38:26.147 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=eb815c91-d4ca-4467-b8aa-f0824d1feb70, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:38:26.421 INFO - http://172.22.0.4:40001 [bash, -c, stop-video]
-[36mzalenium2   |[0m 14:38:28.165 INFO - http://172.22.0.5:40000 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:38:33.800 INFO - http://172.22.0.4:40001 Video file copied to: /home/seluser/videos/zalenium_b3e12136-b662-42c3-a22b-b8d135d15ed8_chrome_LINUX_20201118143833582.mp4
-[36mzalenium2   |[0m 14:38:33.863 INFO - http://172.22.0.4:40001 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 14:38:34.366 INFO - http://172.22.0.4:40001 Logs copied to: /home/seluser/videos/logs/zalenium_b3e12136-b662-42c3-a22b-b8d135d15ed8_chrome_LINUX_20201118143833582
-[36mzalenium2   |[0m 14:38:34.411 INFO - http://172.22.0.4:40001 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 14:38:37.957 INFO - http://172.22.0.4:40001 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 14:38:37.957 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.4:40001
-[36mzalenium2   |[0m 14:39:06.941 INFO - http://172.22.0.5:40000 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:39:07.176 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:39:07.195 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=e541f9a5-15a1-4a55-b2ea-5e4ba1274b99, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:39:07.200 INFO - http://172.22.0.5:40000 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 14:39:07.551 INFO - http://172.22.0.5:40000 [bash, -c, stop-video]
-[36mzalenium2   |[0m 14:39:11.290 INFO - http://172.22.0.6:40003 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:39:17.842 INFO - http://172.22.0.5:40000 Video file copied to: /home/seluser/videos/zalenium_ee661e31-d77b-47fd-a1d6-55e8cad3fa2a_chrome_LINUX_20201118143917411.mp4
-[36mzalenium2   |[0m 14:39:17.898 INFO - http://172.22.0.5:40000 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 14:39:18.923 INFO - http://172.22.0.5:40000 Logs copied to: /home/seluser/videos/logs/zalenium_ee661e31-d77b-47fd-a1d6-55e8cad3fa2a_chrome_LINUX_20201118143917411
-[36mzalenium2   |[0m 14:39:18.992 INFO - http://172.22.0.5:40000 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 14:39:24.896 INFO - http://172.22.0.5:40000 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 14:39:24.897 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.5:40000
-[36mzalenium2   |[0m 14:39:48.870 INFO - http://172.22.0.6:40003 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:39:48.926 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:39:48.927 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 14:39:49.907 INFO - http://172.22.0.6:40003 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 2020-11-18 14:39:49 INFO  DefaultDockerClient:678 - Starting container with Id: 14c4a14226c0a82eda14235dbce6521d431e01fc8c5134251cbd6ca14f8c8635
-[36mzalenium2   |[0m 14:39:50.882 INFO - http://172.22.0.6:40003 [bash, -c, stop-video]
-[36mzalenium2   |[0m 14:39:57.250 INFO - [DS] Container zalenium2_40004 is up after ~7 seconds...
-[36mzalenium2   |[0m 14:39:58.799 INFO - http://172.22.0.6:40003 Video file copied to: /home/seluser/videos/zalenium_68cd79df-90cd-4110-9a8f-cc7afb77bc9c_chrome_LINUX_20201118143958644.mp4
-[36mzalenium2   |[0m 14:39:58.863 INFO - http://172.22.0.6:40003 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 14:39:59.471 INFO - http://172.22.0.6:40003 Logs copied to: /home/seluser/videos/logs/zalenium_68cd79df-90cd-4110-9a8f-cc7afb77bc9c_chrome_LINUX_20201118143958644
-[36mzalenium2   |[0m 14:39:59.511 INFO - http://172.22.0.6:40003 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 14:40:03.855 INFO - http://172.22.0.6:40003 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 14:40:03.856 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.6:40003
-[36mzalenium2   |[0m 14:40:06.881 INFO - Registered a node http://172.22.0.3:40004
-[36mzalenium2   |[0m 14:40:06.884 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=66798502-70de-4395-bbfe-015ecf76da96, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:40:07.606 INFO - http://172.22.0.3:40004 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:40:45.892 INFO - http://172.22.0.3:40004 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:40:45.963 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
-[36mzalenium2   |[0m 14:40:45.964 INFO - [DS] Starting new node for {browserName=chrome, version=}.
-[36mzalenium2   |[0m 14:40:46.919 INFO - http://172.22.0.3:40004 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 2020-11-18 14:40:46 INFO  DefaultDockerClient:678 - Starting container with Id: 0089ecf58812318fad8c9481cc1816f68e59211205fb5f434c01210b163038a3
-[36mzalenium2   |[0m 14:40:47.071 INFO - http://172.22.0.3:40004 [bash, -c, stop-video]
-[36mzalenium2   |[0m 14:40:53.293 INFO - [DS] Container zalenium2_40005 is up after ~6 seconds...
-[36mzalenium2   |[0m 14:40:54.867 INFO - http://172.22.0.3:40004 Video file copied to: /home/seluser/videos/zalenium_3fa7c56a-9a27-4751-a7c2-4d90fdcd7e8b_chrome_LINUX_20201118144054726.mp4
-[36mzalenium2   |[0m 14:40:54.906 INFO - http://172.22.0.3:40004 [bash, -c, transfer-logs.sh]
-[36mzalenium2   |[0m 14:40:55.360 INFO - http://172.22.0.3:40004 Logs copied to: /home/seluser/videos/logs/zalenium_3fa7c56a-9a27-4751-a7c2-4d90fdcd7e8b_chrome_LINUX_20201118144054726
-[36mzalenium2   |[0m 14:40:55.424 INFO - http://172.22.0.3:40004 [bash, -c, cleanup-container.sh]
-[36mzalenium2   |[0m 14:40:58.077 INFO - http://172.22.0.3:40004 Marking the node as down because it was stopped after 1 tests.
-[36mzalenium2   |[0m 14:40:58.077 WARN - Cleaning up stale test sessions on the unregistered node http://172.22.0.3:40004
-[36mzalenium2   |[0m 14:41:02.697 INFO - Registered a node http://172.22.0.4:40005
-[36mzalenium2   |[0m 14:41:02.699 INFO - Trying to create a new session on test slot {server:CONFIG_UUID=f0b26c7b-2620-4576-b018-f1fdbb3ce6bf, seleniumProtocol=WebDriver, zal:tz=Europe/Helsinki, version=86.0.4240.111, platform=LINUX, acceptSslCerts=true, zal:screenResolution=1366x768, zal:screen-resolution=1366x768, browserName=chrome, zal:resolution=1366x768, maxInstances=1, platformName=LINUX}
-[36mzalenium2   |[0m 14:41:03.611 INFO - http://172.22.0.4:40005 [bash, -c, start-video]
-[36mzalenium2   |[0m 14:41:40.519 INFO - http://172.22.0.4:40005 AFTER_SESSION command received. Node should shutdown soon...
-[36mzalenium2   |[0m 14:41:40.548 INFO - http://172.22.0.4:40005 [bash, -c, notify 'Zalenium', 'TEST COMPLETED', --icon=/home/seluser/images/completed.png]
-[36mzalenium2   |[0m 14:41:40.738 INFO - http://172.22.0.4:40005 [bash, -c, stop-video]
-[36mzalenium2   |[0m Trapped SIGTERM/SIGINT so shutting down Zalenium gracefully...
-[36mzalenium2   |[0m -- LOG 14:41:42:801274600 WaitForVideosTransferred succeeded for a total of 49
-[36mzalenium2   |[0m Stopping Hub...
-[36mzalenium2   |[0m Stopping DockerSeleniumStarter node...
-[36mzalenium2   |[0m -- LOG 14:41:42:831078300 Ensuring no stale Zalenium related containers are still around...
-[36mzalenium2   |[0m Removing exited docker-selenium containers...
-[36mzalenium2   |[0m 0089ecf58812
-[36mzalenium2 exited with code 0
-[0m
+[36mzalenium2   |[0m 2021-03-10 22:55:35 INFO  DefaultDockerClient:678 - Starting container with Id: e5f9094c96c70e4e9a95ec65e09262c7e6b72d5dfa87b903aa9dddaa91d4dfb6
+[36mzalenium2   |[0m 2021-03-10 22:55:35 INFO  DefaultDockerClient:678 - Starting container with Id: 9d9615eab26b79289c5b183d5e399b594e4572865400f4221686784e8c92f131
+[36mzalenium2   |[0m 2021-03-10 22:55:35 INFO  DefaultDockerClient:678 - Starting container with Id: cbe1478e7b0092904160e22442b337cb0e778223d0aabcba16d2e10a283d34df
+[36mzalenium2   |[0m 22:55:42.934 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 22:55:42.945 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 22:55:43 INFO  DefaultDockerClient:678 - Starting container with Id: ccf989d6dd849efe1b474a76ec1e099c4b585afba269727e9d57872339fc09a6
+[36mzalenium2   |[0m 22:56:36.325 INFO - [DS] Container zalenium2_40002 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:56:36.547 INFO - [DS] Container zalenium2_40000 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:56:36.547 INFO - [DS] Container zalenium2_40001 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 22:56:37 INFO  DefaultDockerClient:678 - Starting container with Id: 3367d1bc53e26f0b840b9aef05f440444ee5193a6f0754088eec7989881b90c9
+[36mzalenium2   |[0m 2021-03-10 22:56:37 INFO  DefaultDockerClient:678 - Starting container with Id: 470f37db5a0b5ac7467697561664ea7e8a4357bb63a1c788968626aa1e1eea27
+[36mzalenium2   |[0m 2021-03-10 22:56:37 INFO  DefaultDockerClient:678 - Starting container with Id: 727ed3683ff9971bb6493db2d70aa24c4e651a46ec62e16204e2598070d31618
+[36mzalenium2   |[0m 22:56:43.813 INFO - [DS] Container zalenium2_40003 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 22:56:43 INFO  DefaultDockerClient:678 - Starting container with Id: df881f5fcebe17cbfe37a7924766d4e568141884d26ef40bc57083a5a81d32f7
+[36mzalenium2   |[0m 22:57:41.342 INFO - [DS] Container zalenium2_40004 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:57:41.343 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 22:57:41.478 INFO - [DS] Container zalenium2_40005 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:57:41.480 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 22:57:41.503 INFO - [DS] Container zalenium2_40006 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:57:41.505 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 22:57:44.511 INFO - [DS] Container zalenium2_40007 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 22:57:44.511 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 22:58:07.980 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 22:58:07.982 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 22:58:09 INFO  DefaultDockerClient:678 - Starting container with Id: 7c6944e917f354c4389f83ef2aba7760d6a91efb817696d4869d55631c6874b7
+[36mzalenium2   |[0m 22:59:09.799 INFO - [DS] Container zalenium2_40008 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 22:59:10 INFO  DefaultDockerClient:678 - Starting container with Id: f3577ab7cd8189df6979689cb37126bd2a6e236abd6d49913f8754c9552bc6e5
+[36mzalenium2   |[0m 23:00:11.892 INFO - [DS] Container zalenium2_40009 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:00:11.894 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:00:33.013 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:00:33.015 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:00:34 INFO  DefaultDockerClient:678 - Starting container with Id: 93c18b2d777345f4572922c161f51884f5d2efbb8538123a855f9544aa13813f
+[36mzalenium2   |[0m 23:01:36.198 INFO - [DS] Container zalenium2_40010 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:01:37 INFO  DefaultDockerClient:678 - Starting container with Id: 74482b3a480ea07805857934b2ec3837057ddf41c0c079ad8f16eb3a882d5f0f
+[36mzalenium2   |[0m 23:02:38.104 INFO - [DS] Container zalenium2_40011 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:02:38.106 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:02:58.037 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:02:58.038 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:03:00 INFO  DefaultDockerClient:678 - Starting container with Id: 5ed3a36bf5e298d437198b4c55ac06e35625bc4b1abded67eaf64a32430b17f3
+[36mzalenium2   |[0m 23:04:00.940 INFO - [DS] Container zalenium2_40012 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:04:02 INFO  DefaultDockerClient:678 - Starting container with Id: 0112e651241a3c01e000967a93fd7cbfbc5fa21859e09434b1348a9bab965190
+[36mzalenium2   |[0m 23:05:02.968 INFO - [DS] Container zalenium2_40013 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:05:02.968 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:05:23.063 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:05:23.064 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:05:24 INFO  DefaultDockerClient:678 - Starting container with Id: c8abd9391dca551a07a65f04df4e842b8c0bcb7188bf642da9a71e2bbc41b8fe
+[36mzalenium2   |[0m 23:06:24.943 INFO - [DS] Container zalenium2_40014 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:06:26 INFO  DefaultDockerClient:678 - Starting container with Id: 36df1ac3b0a825377692ef75c2713087a5a8dc9dcf37674567337aa60c5ff57d
+[36mzalenium2   |[0m 23:07:26.841 INFO - [DS] Container zalenium2_40015 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:07:26.842 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:07:48.085 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:07:48.085 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:07:49 INFO  DefaultDockerClient:678 - Starting container with Id: 36d707728a59cd58f3b28015e6840b925d925ecb33e72e92e60a9b37b03d3b58
+[36mzalenium2   |[0m 23:08:49.983 INFO - [DS] Container zalenium2_40016 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:08:51 INFO  DefaultDockerClient:678 - Starting container with Id: f57055ba8fbcd95ff65bedc6a856259840ba582de7465975374ded4691d9ce31
+[36mzalenium2   |[0m 23:09:51.954 INFO - [DS] Container zalenium2_40017 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:09:51.955 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:10:13.113 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:10:13.114 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:10:14 INFO  DefaultDockerClient:678 - Starting container with Id: d259096a34a8d7c19c51832b0b227a78c9ea2b8f0e7ebd8b38927243c051628f
+[36mzalenium2   |[0m 23:10:43.736 INFO - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mzalenium2   |[0m 23:10:43.739 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:10:47 INFO  DefaultDockerClient:678 - Starting container with Id: 0d078fc61f63a4593cb54d6c298573118918a73870cf1c490140fdf18c083047
+[36mzalenium2   |[0m 23:11:15.969 INFO - [DS] Container zalenium2_40018 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:11:17 INFO  DefaultDockerClient:678 - Starting container with Id: 38c77d95215b72af9b302a0c5096ffe523fbdf152bbce0c55863e36a8ec4b62c
+[36mzalenium2   |[0m 23:11:50.814 INFO - [DS] Container zalenium2_40019 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:11:51 INFO  DefaultDockerClient:678 - Starting container with Id: ae9fb000759abbabf23e0fb783eddc100763b551855ab588173392a8bc54a3f2
+[36mzalenium2   |[0m 23:12:18.599 INFO - [DS] Container zalenium2_40020 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:12:18.601 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:12:33.767 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:12:33.768 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:12:34 INFO  DefaultDockerClient:678 - Starting container with Id: 9a5cddab8e58dfd817f6b2cd5780c5cedc3865b03e2f6b4fb9069a7b02a6cf82
+[36mzalenium2   |[0m 23:12:53.534 INFO - [DS] Container zalenium2_40021 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:12:53.535 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:13:08.778 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:13:08.779 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:13:09 INFO  DefaultDockerClient:678 - Starting container with Id: f5d41ed783ce1ba7796a34a6bbb5e118a901200c34291753ac4fdd3ef9ec024c
+[36mzalenium2   |[0m 23:13:37.372 INFO - [DS] Container zalenium2_40022 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:13:38 INFO  DefaultDockerClient:678 - Starting container with Id: a26be84c11577f3d4a7b73ca983237b004fc121546ae704e43ba20deb3c91b41
+[36mzalenium2   |[0m 23:14:11.415 INFO - [DS] Container zalenium2_40023 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:14:12 INFO  DefaultDockerClient:678 - Starting container with Id: 22b8ae9f9e41090aeaa28ce0c5eaeec241b4b1cd47a8a665749a02a9516ad2df
+[36mzalenium2   |[0m 23:14:39.981 INFO - [DS] Container zalenium2_40024 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:14:39.982 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:14:58.795 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:14:58.796 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:14:59 INFO  DefaultDockerClient:678 - Starting container with Id: f383d8861c41c745769ccbdeda1355f0d14e921b95ff4a1bd441f55557b71adb
+[36mzalenium2   |[0m 23:15:15.985 INFO - [DS] Container zalenium2_40025 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:15:15.985 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:15:33.801 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:15:33.802 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:15:34 INFO  DefaultDockerClient:678 - Starting container with Id: f89e2e6977c354697a46e2a445704a87925d8de8e2b35234076438548fe3249b
+[36mzalenium2   |[0m 23:16:02.570 INFO - [DS] Container zalenium2_40026 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:16:03 INFO  DefaultDockerClient:678 - Starting container with Id: e53b8f57200a8c184ff8bbe0050849d7bef56c4dd12f19e99109851c6663f3e2
+[36mzalenium2   |[0m 23:16:36.939 INFO - [DS] Container zalenium2_40027 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:16:38 INFO  DefaultDockerClient:678 - Starting container with Id: 67b1040f490e888ae69729ddf4caef8dd2fcc969897979d977e8223a941b46c2
+[36mzalenium2   |[0m 23:17:05.514 INFO - [DS] Container zalenium2_40028 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:17:05.515 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:17:23.819 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:17:23.820 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:17:24 INFO  DefaultDockerClient:678 - Starting container with Id: 55c56f4d648a3b2d9ef778d67359bfcf51037bbc170c5f4e6921114c3a89b966
+[36mzalenium2   |[0m 23:17:39.204 INFO - [DS] Container zalenium2_40029 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 23:17:39.205 INFO - [DS] No container was created, will try again in a moment...
+[36mzalenium2   |[0m 23:17:58.834 INFO - [DS] Request has waited 30 attempts for a node, something went wrong with the previous attempts, creating a new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 23:17:58.835 INFO - [DS] Starting new node for {browserName=chrome, version=}.
+[36mzalenium2   |[0m 2021-03-10 23:17:59 INFO  DefaultDockerClient:678 - Starting container with Id: ae9fdeba02339cb67b938c8344f655e87c2cfbff78fff089378af9315d79baa8
+[36mzalenium2   |[0m 23:18:26.520 INFO - [DS] Container zalenium2_40030 took longer than 60 seconds to be up and ready, this might be a signal that you have reached the hardware limits for the number of concurrent threads that you want to execute.
+[36mzalenium2   |[0m 2021-03-10 23:18:26 INFO  DefaultDockerClient:678 - Starting container with Id: bf4cbb5631958330fd9d57fcf5666df74757ab198dfa389abb5cb22261924ade
+Gracefully stopping... (press Ctrl+C again to force)

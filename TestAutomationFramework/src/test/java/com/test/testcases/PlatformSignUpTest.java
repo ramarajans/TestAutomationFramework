@@ -38,7 +38,7 @@ public class PlatformSignUpTest extends BaseTest{
 		
 	}
 
-	@Test(dataProvider = "data") //retryAnalyzer = RetryFailedTestCases.class
+	@Test(dataProvider = "data") // , retryAnalyzer = RetryFailedTestCases.class
 	public void signUpConversationalAI(String firstName, String lastName, String email,String password) throws Exception {
 
 		openBrowser(DriverFactory.getBrowser());
